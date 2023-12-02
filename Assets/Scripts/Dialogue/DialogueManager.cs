@@ -18,7 +18,6 @@ public class DialogueManager : MonoBehaviour
 
     public void OpenDialogue(Message[] messages, Actor[] actors)
     {
-        Time.timeScale = 0.25f;
         currentMessages = messages;
         currentActors = actors;
         activeMessage = 0;
@@ -51,7 +50,6 @@ public class DialogueManager : MonoBehaviour
             Debug.Log("Ended");
             backgroundBox.LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
             isActive = false;
-            Time.timeScale = 1;
             
         }
     }
