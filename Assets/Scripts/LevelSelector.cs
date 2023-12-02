@@ -12,7 +12,7 @@ public class LevelSelector : MonoBehaviour
     {
         levelManager = LevelManager.instance;
 
-        for (int i = 0; i <= levels.Count; i++)
+        for (int i = 0; i < levels.Count; i++)
         {
             levels[i].GetComponent<Button>().interactable = false;
             switch (i)

@@ -11,7 +11,8 @@ public class SettingsScript1 : MonoBehaviour
     void Start()
     {
         manager = SettingsManager.instance;
-        UpdateSliders();
+        if (musicSlider != null && audioSlider != null)
+            UpdateSliders();
     }
     public void UpdateSliders()
     {
