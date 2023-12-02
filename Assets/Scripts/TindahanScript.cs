@@ -43,31 +43,34 @@ public class TindahanScript : MonoBehaviour
             switch (i)
             {
                 case 0:
+                    Debug.Log("Sibat: " + tindahanManager.hasSibat);
                     if (tindahanManager.hasSibat)
                     {
-                        itemWeaponDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Gamitin");
+                        itemWeaponDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Gamitin");
                         itemWeaponDetailBtnList[i].GetComponent<Button>().onClick.AddListener(() => EquipItem("Sibat"));
                     }
                     else
-                        itemWeaponDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Bilhin");
+                        itemWeaponDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Bilhin");
                     break;
                 case 1:
+                    Debug.Log("Kris: " + tindahanManager.hasKris);
                     if (tindahanManager.hasKris)
                     {
-                        itemWeaponDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Gamitin");
+                        itemWeaponDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Gamitin");
                         itemWeaponDetailBtnList[i].GetComponent<Button>().onClick.AddListener(() => EquipItem("Kris"));
                     }
                     else
-                        itemWeaponDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Bilhin");
+                        itemWeaponDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Bilhin");
                     break;
                 case 2:
+                    Debug.Log("Kampilan: " + tindahanManager.hasKampilan);
                     if (tindahanManager.hasKampilan)
                     {
-                        itemWeaponDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Gamitin");
+                        itemWeaponDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Gamitin");
                         itemWeaponDetailBtnList[i].GetComponent<Button>().onClick.AddListener(() => EquipItem("Kampilan"));
                     }
                     else
-                        itemWeaponDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Bilhin");
+                        itemWeaponDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Bilhin");
                     break;
             }
         }
@@ -79,29 +82,29 @@ public class TindahanScript : MonoBehaviour
                 case 0:
                     if (tindahanManager.hasBahag)
                     {
-                        itemEnsembleDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Gamitin");
+                        itemEnsembleDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Gamitin");
                         itemEnsembleDetailBtnList[i].GetComponent<Button>().onClick.AddListener(() => EquipItem("Bahag"));
                     }
                     else
-                        itemEnsembleDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Bilhin");
+                        itemEnsembleDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Bilhin");
                     break;
                 case 1:
                     if (tindahanManager.hasKangan)
                     {
-                        itemEnsembleDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Gamitin");
+                        itemEnsembleDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Gamitin");
                         itemEnsembleDetailBtnList[i].GetComponent<Button>().onClick.AddListener(() => EquipItem("Kangan"));
                     }
                     else
-                        itemEnsembleDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Bilhin");
+                        itemEnsembleDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Bilhin");
                     break;
                 case 2:
                     if (tindahanManager.hasPudong)
                     {
-                        itemEnsembleDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Gamitin");
+                        itemEnsembleDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Gamitin");
                         itemEnsembleDetailBtnList[i].GetComponent<Button>().onClick.AddListener(() => EquipItem("Pudong"));
                     }
                     else
-                        itemEnsembleDetailBtnList[i].GetComponent<TextMeshProUGUI>().SetText("Bilhin");
+                        itemEnsembleDetailBtnList[i].GetComponentInChildren<TextMeshProUGUI>().SetText("Bilhin");
                     break;
             }
         }
@@ -137,7 +140,7 @@ public class TindahanScript : MonoBehaviour
                 break;
         }
 
-        
+
         tindahanManager.Equip(key);
     }
 
@@ -201,7 +204,7 @@ public class TindahanScript : MonoBehaviour
         switch (name.ToLower())
         {
             case "sibat":
-                cost = 300;
+                cost = 0;
                 key = "hasSibat";
                 break;
 
@@ -251,7 +254,7 @@ public class TindahanScript : MonoBehaviour
                 break;
 
             case "bahag":
-                cost = 200;
+                cost = 0;
                 key = "hasBahag";
                 break;
 
