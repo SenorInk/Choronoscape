@@ -14,6 +14,8 @@ public class TindahanScript : MonoBehaviour
     public List<GameObject> itemEnsembleDetailList;
     public List<GameObject> itemWeaponButtonList;
     public List<GameObject> itemEnsemblesButtonList;
+    public GameObject successPanel;
+    public GameObject failPanel;
     void Start()
     {
         tindahanManager = TindahanManager.instance;
@@ -197,11 +199,25 @@ public class TindahanScript : MonoBehaviour
 
     public void ShowSuccessPanel()
     {
-
+        successPanel.SetActive(true);
     }
 
     public void ShowFailedPanel()
     {
+        failPanel.SetActive(true);
+    }
 
+    public void CloseAllPanels(){
+        detailsPanel.SetActive(false);
+        successPanel.SetActive(false);
+        failPanel.SetActive(false);
+        foreach (GameObject item in itemWeaponDetailList)
+        {
+            item.SetActive(false);
+        }
+        foreach (GameObject item in itemEnsembleDetailList)
+        {
+            item.SetActive(false);
+        }
     }
 }
