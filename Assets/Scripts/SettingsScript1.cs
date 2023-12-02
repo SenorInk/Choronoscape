@@ -13,12 +13,14 @@ public class SettingsScript1 : MonoBehaviour
         manager = SettingsManager.instance;
         UpdateSliders();
     }
-    public void UpdateSliders(){
+    public void UpdateSliders()
+    {
         musicSlider.value = manager.musicLevel;
         audioSlider.value = manager.audioLevel;
     }
 
-    public void UpdateSettings(){
+    public void UpdateSettings()
+    {
         manager.musicLevel = musicSlider.value;
         manager.audioLevel = audioSlider.value;
         manager.Save();
@@ -27,16 +29,16 @@ public class SettingsScript1 : MonoBehaviour
     public void ShowSettings()
     {
         settingsPanel.SetActive(true);
-        
+
     }
 
     public void QuitGame()
     {
-        #if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-        #else
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
             Application.Quit();
-        #endif
+#endif
     }
 
     public void CloseFactPanel()
