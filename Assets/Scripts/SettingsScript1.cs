@@ -33,6 +33,7 @@ public class SettingsScript1 : MonoBehaviour
 
     public void ShowSettings()
     {
+        Time.timeScale = 0;
         settingsPanel.SetActive(true);
 
     }
@@ -49,6 +50,7 @@ public class SettingsScript1 : MonoBehaviour
     public void CloseFactPanel()
     {
         UpdateSettings();
+        Time.timeScale = 1;
         settingsPanel.SetActive(false);
     }
 

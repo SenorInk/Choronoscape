@@ -12,8 +12,8 @@ public class PlayerController : MonoBehaviour
     private float dashingPower = 7f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;   
-
-
+    public Sprite kangan;
+    public Sprite pudong;
 
     private Animator anim;
     private SpriteRenderer sprite;
