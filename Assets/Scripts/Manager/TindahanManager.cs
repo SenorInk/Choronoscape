@@ -114,4 +114,11 @@ public class TindahanManager : MonoBehaviour
     public Boolean hasSandalyas { get; set; }
     public Boolean hasBarongTagalog { get; set; }
     public Boolean hasBalintawak { get; set; }
+
+    public Boolean isSibatEquiped { get; set; }
+    public Boolean isKrisEquiped { get; set; }
+    public Boolean isKampilanEquiped { get; set; }
+    public Boolean isBahagEquiped { get; set; }
+    public Boolean isKanganEquiped { get; set; }
+    public Boolean isPudongEquiped { get; set; }
 }
