@@ -9,25 +9,15 @@ public class DetailedKalendaryo : MonoBehaviour
 
     void Awake()
     {
-        activeGameObject.SetActive(false);
+        
     }
     public void ActivateObject()
     {
-
-        if(activeGameObject.activeSelf != true)
-        {
-            activeGameObject.SetActive(true);
-            
-        }
-        else
-        {
-            activeGameObject.SetActive(false);
-        }
-
+        activeGameObject.SetActive(true);
     }
-
-    public void Return()
+    public void Close()
     {
         activeGameObject.SetActive(false);
     }
+
 }
