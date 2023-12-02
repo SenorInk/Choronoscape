@@ -92,7 +92,7 @@ public class TindahanManager : MonoBehaviour
 
     public void Reset()
     {
-        hasSibat = false;
+        hasSibat = true;
         hasKris = false;
         hasKampilan = false;
         hasSumpit = false;
@@ -102,7 +102,7 @@ public class TindahanManager : MonoBehaviour
         hasKalasag = false;
         hasEspadaYDaga = false;
         hasHelmet = false;
-        hasBahag = false;
+        hasBahag = true;
         hasKangan = false;
         hasPudong = false;
         hasTattoo = false;
