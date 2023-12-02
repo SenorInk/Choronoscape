@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 /// <summary>
@@ -36,8 +37,9 @@ public class Map : MonoBehaviour
 
         source.volume = settingsManager.audioLevel;
     }
-    
-    void Update(){
+
+    void Update()
+    {
         if (source == null)
         {
             audioIsEnabled = false;
@@ -46,7 +48,7 @@ public class Map : MonoBehaviour
 
         source.volume = settingsManager.audioLevel;
     }
-    
+
 
     /// <summary>
     /// Opens the description at the specified index, activates details panel, and plays the "open" sound effect.
@@ -75,6 +77,27 @@ public class Map : MonoBehaviour
 
         // Play the "open" sound effect
         PlaySFX("open");
+
+        //Give out rewards
+        if (!PlayerPrefs.HasKey("GivenMapReward1") && index == 0)
+            GiveReward("GivenMapReward1");
+        if ((!PlayerPrefs.HasKey("GivenMapReward2") && index == 1))
+            GiveReward("GivenMapReward2");
+        if ((!PlayerPrefs.HasKey("GivenMapReward3") && index == 2))
+            GiveReward("GivenMapReward3");
+        if ((!PlayerPrefs.HasKey("GivenMapReward4") && index == 3))
+            GiveReward("GivenMapReward4");
+        if ((!PlayerPrefs.HasKey("GivenMapReward5") && index == 4))
+            GiveReward("GivenMapReward5");
+        if ((!PlayerPrefs.HasKey("GivenMapReward6") && index == 5))
+            GiveReward("GivenMapReward6");
+    }
+
+    void GiveReward(string key)
+    {
+        PlayerController.numberOfCoins += 200;
+        PlayerPrefs.SetInt("NumberOfCoins", PlayerController.numberOfCoins);
+        PlayerPrefs.SetInt(key, 1);
     }
 
     /// <summary>
