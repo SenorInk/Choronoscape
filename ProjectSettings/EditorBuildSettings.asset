@@ -54,13 +54,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 3.unity
     guid: 24d1639cbd4038b42b9dda58f99d92ad
   - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Scenes/Tindahan.unity
-    guid: 0115c6a9d4780aa47bb7d0f3a9c00e18
-=======
-    path: Assets/Scenes/Kalendaryo.unity
-    guid: d869e380b61187245ae127617ecd1dd9
->>>>>>> fc186ffd4693d72b743b037de0a5b5ac8b74a652
+    path: Assets/Scenes/TindahanScene.unity
+    guid: 3ff59e0bdfde72849b283e86288147f0
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 512b9da5882507541a3cfaaf6172017d, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: bb35cb8302a131a4fb9664bf92fb7edf, type: 2}
