@@ -28,8 +28,7 @@ public class AudioScript : MonoBehaviour
             audioIsEnabled = false;
             return;
         }
-
-        source.volume = settingsManager.audioLevel;
+        source.volume = PlayerPrefs.GetFloat("audioLevel");
     }
 
     void Update()
@@ -39,12 +38,11 @@ public class AudioScript : MonoBehaviour
             audioIsEnabled = false;
             return;
         }
-
-        source.volume = settingsManager.audioLevel;
+        source.volume = PlayerPrefs.GetFloat("audioLevel");
     }
     public void PlaySFX(string name)
     {
-         Debug.Log("[SFX Manager | Map] Audio source is enabled: " + audioIsEnabled);
+        Debug.Log("[SFX Manager | Map] Audio source is enabled: " + audioIsEnabled);
         // Return if audio is not enabled
         if (!audioIsEnabled)
             return;

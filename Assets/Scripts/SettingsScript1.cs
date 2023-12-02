@@ -16,6 +16,10 @@ public class SettingsScript1 : MonoBehaviour
     }
     public void UpdateSliders()
     {
+        musicSlider.maxValue = 1f;
+        musicSlider.minValue = 0.0f;
+        audioSlider.maxValue = 1f;
+        audioSlider.minValue = 0.0f;
         musicSlider.value = manager.musicLevel;
         audioSlider.value = manager.audioLevel;
     }

@@ -30,8 +30,8 @@ public class SettingsManager : MonoBehaviour
 
     public void Reset()
     {
-        musicLevel = 100f;
-        audioLevel = 100f;
+        musicLevel = 1f;
+        audioLevel = 1f;
         Save();
     }
 
