@@ -53,6 +53,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: 24d1639cbd4038b42b9dda58f99d92ad
+  - enabled: 1
+    path: Assets/Scenes/Tindahan.unity
+    guid: 0115c6a9d4780aa47bb7d0f3a9c00e18
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 512b9da5882507541a3cfaaf6172017d, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: bb35cb8302a131a4fb9664bf92fb7edf, type: 2}

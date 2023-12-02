@@ -52,7 +52,7 @@ public class RandomFactsScript : MonoBehaviour
         PlaySFX("close");
     }
 
-    private void PlaySFX(string name)
+    public void PlaySFX(string name)
     {
         // Return if audio is not enabled
         if (!audioIsEnabled)

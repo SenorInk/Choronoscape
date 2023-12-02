@@ -138,6 +138,7 @@ public class Map : MonoBehaviour
     /// <param name="name">Name of the sound effect ("open" or "close").</param>
     private void PlaySFX(string name)
     {
+         Debug.Log("[SFX Manager | Map] Audio source is enabled: " + audioIsEnabled);
         // Return if audio is not enabled
         if (!audioIsEnabled)
             return;

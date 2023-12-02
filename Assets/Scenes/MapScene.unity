@@ -252,7 +252,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VISIT CALENDAR
+  m_text: KALENDARYO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -595,7 +595,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VISIT CALENDAR
+  m_text: KALENDARYO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -804,7 +804,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VISIT CALENDAR
+  m_text: KALENDARYO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -1516,6 +1516,18 @@ MonoBehaviour:
           m_StringArgument: Main Menu
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1369638628}
+        m_TargetAssemblyTypeName: AudioScript, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: open
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &147328113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1611,7 +1623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VISIT CALENDAR
+  m_text: KALENDARYO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -2128,6 +2140,152 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &216895754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 216895755}
+  - component: {fileID: 216895757}
+  - component: {fileID: 216895756}
+  m_Layer: 5
+  m_Name: Detail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &216895755
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216895754}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1881403027}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -436.6233}
+  m_SizeDelta: {x: 1127.4131, y: 873.2468}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &216895756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216895754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "      Ang pananakop ng mga Hapon sa Pilipinas noong Ikalawang Digmaang
+    Pandaigdig, mula 1942 hanggang 1945, ay nagdulot ng malupit na pagbabago at pagdurusa
+    sa bansa. Ito ay isang yugto ng mabilisang pagsulong ng mga pangyayari, kung
+    saan ang mga Pilipino ay naranasan ang hirap at trahedya ng digmaan.\r\n\r\n    
+    Noong Disyembre 1941, inokupa ng mga Hapon ang Pilipinas matapos ang pagsiklab
+    ng Digmaang Pandaigdig II sa Timog-Silangang Asya. Ang kanilang pamahalaan ay
+    nagtakda ng patakaran na nagdulot ng pang-aapi at pag-aaksaya sa mga yaman ng
+    bansa. Maraming Pilipino ang dumanas ng hirap, gutom, at pang-aabuso sa ilalim
+    ng mapanakop na kapangyarihan.\r\n\r\n      Pinakamalupit na bahagi ng panahon
+    ng pananakop ng mga Hapon ang tinatawag na \"Bataan Death March\" noong 1942,
+    kung saan libu-libong Pilipino at Amerikano ang ipinilit na maglakad ng malayo
+    mula Bataan hanggang Capas, Tarlac, sa ilalim ng masamang kondisyon. Marami ang
+    namatay o nagdusa sa pisikal at emosyonal na pang-aabuso."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 41.55
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &216895757
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216895754}
+  m_CullTransparentMesh: 1
 --- !u!1 &218770403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2329,10 +2487,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1712038947}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030094, y: 230}
-  m_SizeDelta: {x: 876.9206, y: 516.621}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70654, y: -657.6127}
+  m_SizeDelta: {x: 1127.4131, y: 613.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &239625518
 MonoBehaviour:
@@ -2354,7 +2512,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4c1d46b156f7aa64092d30049f5cc280, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 22430a5f1e3604a4cbbc5b9eea8b47f4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2413,6 +2571,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &261632803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261632804}
+  - component: {fileID: 261632806}
+  - component: {fileID: 261632805}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &261632804
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261632803}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 361096782}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70654, y: -1386.6511}
+  m_SizeDelta: {x: 1127.4131, y: 613.63}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &261632805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261632803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4449505db95732a49a84a76dd9c3566d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &261632806
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261632803}
+  m_CullTransparentMesh: 1
 --- !u!1 &270475202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2817,9 +3050,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Mapa menu displays an interactive map that showcases the different
-    historical periods and their corresponding levels. Players can track their progress,
-    revisit completed levels, and plan their next adventure.
+  m_text: Ang "Mapa" ng menu ay nagpapakita ng isang interaktibong mapa na naglalarawan
+    ng iba't ibang yugto ng kasaysayan at ang kanilang katumbas na mga antas. Maari
+    dito ang mga manlalaro na subaybayan ang kanilang progreso, balikan ang mga natapos
+    na antas, at magplano para sa kanilang susunod na pakikipagsapalaran.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -2988,6 +3222,296 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &344145418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 344145419}
+  - component: {fileID: 344145421}
+  - component: {fileID: 344145420}
+  m_Layer: 5
+  m_Name: Detail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &344145419
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344145418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1712038947}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70654, y: -152.76756}
+  m_SizeDelta: {x: 1127.4131, y: 304.01}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &344145420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344145418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '       Ang prekolonyal na yugto sa Pilipinas ay naglalarawan ng isang
+    panahon ng iba''t ibang kulturang katutubo na nakaorganisa sa mga independiyenteng
+    barangay, bawat isa''y pinamumunuan ng isang datu. Sa isang desentralisadong
+    istrakturang pampulitika, ang mga lipunan ay nakikiisa sa agrikultura, pangingisda,
+    at kalakalan. Ang mga paniniwala at ritwal ng mga animista, kasama na ang Baybayin
+    na sistema ng pagsusulat, ang nagbibigay kulay sa mayamang kultural na abuhay
+    ng yugtong ito.'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 38
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &344145421
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344145418}
+  m_CullTransparentMesh: 1
+--- !u!1 &349901859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349901860}
+  - component: {fileID: 349901862}
+  - component: {fileID: 349901861}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &349901860
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349901859}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1794856078}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -1050.4497}
+  m_SizeDelta: {x: 1127.4131, y: 613.63}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &349901861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349901859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0920c9f2e1f9f794ebf8b7135bc1c661, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &349901862
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349901859}
+  m_CullTransparentMesh: 1
+--- !u!1 &353919544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 353919545}
+  - component: {fileID: 353919547}
+  - component: {fileID: 353919546}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &353919545
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353919544}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 762051954}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -666.3207}
+  m_SizeDelta: {x: 1127.4131, y: 613.63}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &353919546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353919544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 051f7605b63f5a34ea837883ea62ae1f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &353919547
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353919544}
+  m_CullTransparentMesh: 1
 --- !u!1 &361096781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2999,6 +3523,7 @@ GameObject:
   - component: {fileID: 361096782}
   - component: {fileID: 361096784}
   - component: {fileID: 361096783}
+  - component: {fileID: 361096785}
   m_Layer: 5
   m_Name: Description
   m_TagString: Untagged
@@ -3018,13 +3543,15 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1761139678}
+  - {fileID: 1212584417}
+  - {fileID: 261632804}
+  - {fileID: 1250261454}
   m_Father: {fileID: 1225944848}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -588.8694, y: 961.53754}
-  m_SizeDelta: {x: 1121.6997, y: 1923.0693}
+  m_AnchoredPosition: {x: -588.8694, y: 870.7152}
+  m_SizeDelta: {x: 1121.6998, y: 2104.714}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &361096783
 MonoBehaviour:
@@ -3046,36 +3573,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "      Post-independence Philippines refers to the period after the country
-    gained full sovereignty from the United States on July 4, 1946. This era is characterized
-    by the nation's efforts to shape its political, economic, and social landscape,
-    overcome the challenges of reconstruction after World War II, and establish its
-    identity as a newly independent republic.\r\n\r\n     The Philippines officially
-    became the Republic of the Philippines on July 4, 1946, with the inauguration
-    of Manuel Roxas as its first president. This marked the end of the American colonial
-    period and the beginning of a journey toward self-governance.\r\n\r\n     The
-    aftermath of World War II presented immense challenges, as the country faced
-    the task of rebuilding its economy and infrastructure. War-torn cities, including
-    the capital Manila, required extensive reconstruction efforts. The government
-    focused on rehabilitation and recovery, seeking international aid and assistance.\r\n\r\n    
-    In the post-independence period, various economic policies were implemented to
-    stimulate growth. The government promoted import-substitution industrialization,
-    which aimed to develop domestic industries to reduce dependence on foreign imports.
-    The period also saw the establishment of economic policies that encouraged agricultural
-    development.\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n     The Philippines
-    maintained close ties with the United States, which continued to play a significant
-    role in the country's foreign relations. The Mutual Defense Treaty between the
-    Philippines and the United States, signed in 1951, strengthened military cooperation
-    and security alliances.\r\n\r\n      The post-independence era was marked by
-    periods of political instability. Presidents changed hands, and the country experienced
-    periods of unrest. In 1972, President Ferdinand Marcos declared martial law,
-    claiming it was necessary to suppress communist insurgency and maintain law and
-    order. Martial law lasted until 1981 and significantly altered the political
-    landscape.\r\n\r\n      The turning point in Philippine history came in 1986
-    with the People Power Revolution. Mass demonstrations, sparked by the fraudulent
-    presidential election, led to the ousting of President Ferdinand Marcos and the
-    installation of Corazon Aquino as the new president. This peaceful revolution
-    captured the world's attention and served as a symbol of nonviolent resistance."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -3152,6 +3650,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361096781}
   m_CullTransparentMesh: 1
+--- !u!114 &361096785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361096781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &363301240
 GameObject:
   m_ObjectHideFlags: 0
@@ -3836,8 +4360,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1306618882}
   m_HandleRect: {fileID: 1306618881}
   m_Direction: 3
-  m_Value: -0.00000050955
-  m_Size: 0.25789726
+  m_Value: 0.11128355
+  m_Size: 0.23598881
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3972,6 +4496,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1369638628}
+        m_TargetAssemblyTypeName: AudioScript, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: close
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &490252996
@@ -4265,81 +4801,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507473182}
-  m_CullTransparentMesh: 1
---- !u!1 &515540845
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 515540846}
-  - component: {fileID: 515540848}
-  - component: {fileID: 515540847}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &515540846
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515540845}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 996558341}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030094, y: -636}
-  m_SizeDelta: {x: 876.9206, y: 516.621}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &515540847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515540845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ff4a57a6084e1f040804f53cbd5bc78b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &515540848
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515540845}
   m_CullTransparentMesh: 1
 --- !u!1 &535359438
 GameObject:
@@ -4731,6 +5192,291 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &596176379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 596176380}
+  - component: {fileID: 596176382}
+  - component: {fileID: 596176381}
+  m_Layer: 5
+  m_Name: Detail1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &596176380
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596176379}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1881403027}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -1907.5182}
+  m_SizeDelta: {x: 1127.4131, y: 649.7466}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &596176381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596176379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "     Gayunpaman, hindi rin matatawaran ang ilang aspeto ng rebolusyonaryong
+    kilusan laban sa mga Hapon. Ang mga Hukbalahap, na orihinal na itinatag laban
+    sa mga Hapon, ay nagpatuloy ng kanilang laban para sa kasarinlan hanggang sa
+    sumunod na dekada. Ito ay nagbigay daan sa mga pagbabago sa pulitika at lipunan
+    matapos ang digmaan.\r\n\r\n      Ang pananakop ng mga Hapon ay isang madilim
+    na yugto sa kasaysayan ng Pilipinas na nag-iwan ng malalim na sugat sa puso at
+    isipan ng maraming Pilipino. Sa kabila ng mga pagdurusa, nagkaruon din ng mga
+    tagumpay at bayaning handang ipagtanggol ang kalayaan ng bayan."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 46.4
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &596176382
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596176379}
+  m_CullTransparentMesh: 1
+--- !u!1 &598835536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598835537}
+  - component: {fileID: 598835539}
+  - component: {fileID: 598835538}
+  m_Layer: 5
+  m_Name: Detail1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &598835537
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598835536}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 762051954}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -1353.5046}
+  m_SizeDelta: {x: 1127.4131, y: 649.7466}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &598835538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598835536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "      Naging pangunahing layunin ng mga Espanyol ang pagpapalaganap ng
+    Kristiyanismo sa buong bansa, isang layuning itinuturing nilang bahagi ng kanilang
+    misyon. Ang mga misyonaryo ay nagtatag ng mga simbahan at misyon sa iba't ibang
+    lugar, at isinagawa ang bautismo sa mga katutubo. Binago rin ng mga Espanyol
+    ang sistema ng pamahalaan sa pamamagitan ng pagtatatag ng mga encomienda, kung
+    saan ang mga dayuhan, kadalasang may mga katutubong alipin, ay ibinibigay bilang
+    parangal sa mga prayle o opisyal na Espanyol.\r\n\r\n     Bukod sa aspeto ng
+    relihiyon at pamahalaan, nagkaruon din ng malaking impluwensiya ang mga Espanyol
+    sa kultura ng mga Pilipino. Naganap ang pagsasanib ng mga elementong Espanyol
+    at lokal na tradisyon, na nagbigay-buhay sa isang masalimuot at mayaman na kulturang
+    tinatawag natin ngayon bilang \"Filipino.\""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40.6
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &598835539
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598835536}
+  m_CullTransparentMesh: 1
 --- !u!1 &609937230
 GameObject:
   m_ObjectHideFlags: 0
@@ -4980,8 +5726,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1295693772}
   m_HandleRect: {fileID: 1295693771}
   m_Direction: 2
-  m_Value: 0.99999726
-  m_Size: 0.35996908
+  m_Value: 0.999998
+  m_Size: 0.29451007
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5768,6 +6514,7 @@ GameObject:
   - component: {fileID: 705014672}
   - component: {fileID: 705014674}
   - component: {fileID: 705014675}
+  - component: {fileID: 705014678}
   m_Layer: 5
   m_Name: Manager
   m_TagString: Untagged
@@ -5829,39 +6576,72 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   facts:
-  - The Philippines is home to the oldest known watercraft in Southeast Asia called
-    balangay boats. These wooden boats were used for trade and navigation by ancient
-    Filipinos and played a crucial role in maritime exploration.
-  - ' The Code of Kalantiaw, though later debunked as a fabrication, was believed
-    to be a legal code created by Datu Kalantiaw, a precolonial chief. It was said
-    to have contained laws and moral guidelines that governed the people of Panay.'
-  - The Panay Bukidnon, an indigenous group in Panay Island, practiced the Mangigingi
-    ritual, a ceremony performed to ask for guidance from ancestral spirits. This
-    reflects the spiritual and animistic beliefs that were an integral part of precolonial
-    Filipino societies.
-  - Babaylans were spiritual leaders and healers in precolonial Filipino communities.
-    They played a vital role in connecting with the spirit world, conducting rituals,
-    and providing medical and spiritual guidance.
-  - The Philippines is often regarded as the first Asian nation to achieve independence
-    after World War II. On July 4, 1946, the United States officially recognized
-    Philippine independence, making it the first democratic republic in Asia.
-  - The first Philippine flag was sewn by Marcela Agoncillo, Lorenza Agoncillo, and
-    Delfina Herbosa de Natividad in Hong Kong in 1897. This flag, known as the "Katipunan"
-    flag, was unfurled during the proclamation of Philippine independence from Spanish
-    rule.
-  - In 2009, Filipina scientist Dr. Fe del Mundo was posthumously awarded the Ramon
-    Magsaysay Award for her pioneering work in pediatric medicine. She was the first
-    woman admitted to Harvard Medical School and dedicated her life to child healthcare.
-  - The Dagohoy Rebellion (1744-1829) in Bohol stands as the longest recorded rebellion
-    in Philippine history. Francisco Dagohoy led the rebellion against Spanish colonial
-    rule for 85 years, creating an independent Boholano state.
-  - The precolonial Philippines was known for its gold craftsmanship. The Butuan
-    Ivory Seal, dating back to the 10th century, and the golden Tara figurines found
-    in various archaeological sites attest to the advanced metallurgical skills of
-    precolonial Filipinos.
-  - The Igorot people of the Cordillera region practiced the art of mummification.
-    The process involved smoking and preserving the bodies of the deceased, showcasing
-    the diverse burial practices in precolonial Philippines.
+  - Ang Pilipinas ay binubuo ng 7,641 na pulo, at ito ang pangalawang pinakamahigit
+    sa buong mundo pagdating sa bilang ng mga isla.
+  - Ang "Singkil," isang tradisyunal na sayaw mula sa Maranao, ay itinuturing na
+    pambansang sayaw ng Pilipinas at nagpapakita ng husay at grasya ng mga mananayaw
+    sa pagsasayaw sa ilalim ng mga naglalakihang tinik ng palasyo.
+  - Ang San Agustin Church sa Intramuros, Manila ay itinuturing na isa sa mga pinakamatandang
+    simbahan sa Pilipinas na naitayo noong 1587. Ito ay isang UNESCO World Heritage
+    Site.
+  - Ang Chocolate Hills sa Bohol ay isang natatanging likas na yaman, kung saan mahigit
+    sa 1,200 burol ang nagmumula sa isang malawak na tanawin, lalo na kapag tag-araw
+    at nagiging kulay tsokolate ang damuhan.
+  - Bago pa man dumating ang mga Kastila, ang Islam ay dumating sa Pilipinas noong
+    ika-14 dantaon sa pamamagitan ng mga mangangalakal mula sa Malaysia at Indonesia.
+    Ang mga Muslim na naglakbay sa mga kaharian ng Sulu at Mindanao ay nagdala ng
+    kanilang kultura, relihiyon, at sistema ng pamahalaan.
+  - Ang mga sinaunang Pilipino ay may sariling sistema ng pagsulat na tinatawag na
+    Baybayin. Ito ay isang pre-kolonyal na sistema ng pagsusulat na binubuo ng mga
+    titik at kudlit. Pagdating ng mga Kastila, tinawag nila itong Alibata.
+  - Ang watawat ng Pilipinas, na binuo ni Marcela Agoncillo, Lorenza Agoncillo, at
+    Delfina Herbosa de Natividad, ay unang iwinagayway noong Hunyo 12, 1898, sa labanang
+    kalayaan sa Kawit, Cavite.
+  - Ang mga babaylan ay kilala bilang mga tagapamagitan sa espiritwal na daigdig.
+    Sila ang nagtatangkang kumuha ng gabay mula sa mga espiritu at diyos upang magtagumpay
+    sa mga gawain ng tribu. Tinatawag din silang "manghuhula" o "manghihilot" dahil
+    sa kanilang kakayahan na magbigay ng gabay o gamot.
+  - Isa ang Pilipinas sa 17 na bansang may napakataas na biodiversity, kung saan
+    matatagpuan ang iba't ibang uri ng halaman at hayop. Dito makikita ang Philippine
+    Tarsier, ang pinakamaliit na primata sa mundo.
+  - Multilingual ang Pilipinas, may higit sa 175 na wika. Ang Filipino at Ingles
+    ang opisyal na wika, kung saan ang Filipino ay batay sa Tagalog.
+  - Ang boksingero na si Manny Pacquiao ay hindi lamang kinikilala bilang isa sa
+    pinakamahuhusay na boksingero sa lahat ng panahon kundi pati na rin bilang isang
+    pulitiko, na nagsilbing senador sa Pilipinas.
+  - Noong Ikalawang Digmaang Pandaigdig, may malaking papel ang Pilipinas. Ang Bataan
+    Death March at ang Laban sa Look ng Leyte ay ilan sa mga mahahalagang pangyayari.
+  - Kilala ang Pilipinas sa isa sa pinakamatagal na pagdiriwang ng Pasko sa buong
+    mundo, nagsisimula ito sa Setyembre at nagtatapos sa Enero.
+  - Kilala bilang "Eighth Wonder of the World," ang Banaue Rice Terraces ay sinaunang
+    terraces na inukit sa mga bundok ng Ifugao nang higit sa 2,000 taon na ang nakakaraan.
+  - Bahagi ang Pilipinas ng Pacific Ring of Fire, kaya't maraming aktibong bulkan
+    dito. Kilala ang Bulkang Mayon sa kanyang halos perpektong cone, at ang Bulkang
+    Taal na may lawa sa kanyang kweba.
+  - Bahagi ang Pilipinas ng Pacific Ring of Fire, kaya't maraming aktibong bulkan
+    dito. Kilala ang Bulkang Mayon sa kanyang halos perpektong cone, at ang Bulkang
+    Taal na may lawa sa kanyang kweba.
+  - Ang Bulkang Mayon sa Albay ay kilala sa kanyang malakas na kono na itinuturing
+    na isa sa pinakaperpektong anyong bulkan sa buong mundo.
+  - Ang Buwan ng Agosto ay kinikilala bilang Linggo ng Wika sa Pilipinas, kung saan
+    ipinagdiriwang ang kahalagahan ng wikang Filipino at iba pang wika sa bansa.
+  - Matatagpuan sa Malolos, Bulacan, ito ang Simbahang Barasoain na may kahalagahan
+    sa kasaysayan ng Pilipinas, kung saan isinagawa ang unang Kongreso ng Republika
+    noong 1899.
+  - Ang Unang Sigaw ng Balintawak ay naganap noong Agosto 23, 1896, sa pangunguna
+    ni Andres Bonifacio, at ito ang nagsilbing pagsisimula ng Himagsikang Filipino
+    laban sa kolonyalismong Espanyol.
+  - Ang Unang Sigaw ng Balintawak ay naganap noong Agosto 23, 1896, sa pangunguna
+    ni Andres Bonifacio, at ito ang nagsilbing pagsisimula ng Himagsikang Filipino
+    laban sa kolonyalismong Espanyol.
+  - Ang kanyang-kanyang na puno ng Narra sa Sierra Madre, tinatayang may edad na
+    600 taon, ay itinuturing na pinakamatandang puno ng kanyang-kanyang sa buong
+    mundo.
+  - Isang sining na kabanata na galing sa Paleolitikong Panahon, kilala ang Manunggul
+    Jar sa paglalarawan ng ritual na pagsilang at kamatayan sa sinaunang kultura
+    sa Palawan.
+  - Ang pambansang awit ng Pilipinas, "Lupang Hinirang," ay may labing-isa (11) na
+    bahagi at isinulat ni Julian Felipe noong 1898.
   openClip: {fileID: 8300000, guid: 41fe389abc552ae4ea67e78dcfbfa9fb, type: 3}
   closeClip: {fileID: 8300000, guid: 41fe389abc552ae4ea67e78dcfbfa9fb, type: 3}
   randomfactPanel: {fileID: 2071154689}
@@ -5913,6 +6693,102 @@ MonoBehaviour:
   musicSlider: {fileID: 1751656915}
   audioSlider: {fileID: 1868834884}
   settingsPanel: {fileID: 1077496688}
+--- !u!82 &705014678
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705014669}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &714802802
 GameObject:
   m_ObjectHideFlags: 0
@@ -6583,6 +7459,7 @@ GameObject:
   - component: {fileID: 762051954}
   - component: {fileID: 762051956}
   - component: {fileID: 762051955}
+  - component: {fileID: 762051957}
   m_Layer: 5
   m_Name: Description
   m_TagString: Untagged
@@ -6602,13 +7479,15 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 935899405}
+  - {fileID: 1504577205}
+  - {fileID: 353919545}
+  - {fileID: 598835537}
   m_Father: {fileID: 1208078274}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -588.8694, y: 679.4055}
-  m_SizeDelta: {x: 1121.6997, y: 1358.8042}
+  m_AnchoredPosition: {x: -588.8694, y: 621.6442}
+  m_SizeDelta: {x: 1121.6998, y: 1243.2834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &762051955
 MonoBehaviour:
@@ -6630,53 +7509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '       The Spanish colonial period in the Philippines, spanning over three
-    centuries, stands as a pivotal chapter in the nation''s history, leaving an enduring
-    impact on its culture, society, and identity. Beginning with the arrival of Ferdinand
-    Magellan in 1521, the archipelago witnessed a profound transformation under Spanish
-    rule. This era, marked by political, cultural, and economic changes, laid the
-    groundwork for the complex tapestry of influences that define modern-day Filipino
-    society. As we delve into the Spanish period, we unravel the intricate dynamics
-    of colonial administration, the convergence of diverse cultures, the imposition
-    of new religious beliefs, economic shifts, social stratification, and the resistance
-    movements that shaped the narrative of the Philippines under Spanish influence.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    Under
-    Spanish rule, the Philippines were organized into a centralized administrative
-    system with Manila as the capital. The archipelago was governed by a series of
-    Spanish officials, including the Governor-General who represented the Spanish
-    Crown. The local political structure underwent changes, with the datu system
-    gradually giving way to a Spanish-style hierarchy.
-
-
-    One of the most profound
-    changes during this period was the introduction of Christianity. Spanish missionaries,
-    most notably the Augustinians, Franciscans, and Jesuits, played a crucial role
-    in spreading Catholicism. Churches and religious institutions were established
-    across the islands, leaving a lasting impact on Filipino spirituality.
-
-
-    The
-    Spanish introduced new crops, such as tobacco and coffee, and implemented a system
-    of forced labor called "polos y servicios," where indigenous people were required
-    to work for a certain period. The Galleon Trade, a maritime route between Manila
-    and Acapulco, became a significant economic lifeline for both the Philippines
-    and the Spanish Empire.'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -6753,6 +7586,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762051953}
   m_CullTransparentMesh: 1
+--- !u!114 &762051957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762051953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: -1.46
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &774227743
 GameObject:
   m_ObjectHideFlags: 0
@@ -7826,7 +8685,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DID YOU KNOW?
+  m_text: ALAM MO BA?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -8112,81 +8971,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914478990}
-  m_CullTransparentMesh: 1
---- !u!1 &935899404
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 935899405}
-  - component: {fileID: 935899407}
-  - component: {fileID: 935899406}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &935899405
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935899404}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 762051954}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000055313, y: -156}
-  m_SizeDelta: {x: 814.0274, y: 482.7554}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &935899406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935899404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 051f7605b63f5a34ea837883ea62ae1f, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &935899407
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935899404}
   m_CullTransparentMesh: 1
 --- !u!1 &949321863
 GameObject:
@@ -8722,8 +9506,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1729787395}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.79749095}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0.741673}
+  m_AnchorMax: {x: 1, y: 0.9300498}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -8776,6 +9560,7 @@ GameObject:
   - component: {fileID: 996558341}
   - component: {fileID: 996558343}
   - component: {fileID: 996558342}
+  - component: {fileID: 996558344}
   m_Layer: 5
   m_Name: Description
   m_TagString: Untagged
@@ -8795,13 +9580,15 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 515540846}
+  - {fileID: 1818720983}
+  - {fileID: 1802412618}
+  - {fileID: 1121752833}
   m_Father: {fileID: 1948601789}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -588.8694, y: 886.4197}
-  m_SizeDelta: {x: 1121.6997, y: 1772.8345}
+  m_AnchoredPosition: {x: -588.8694, y: 718.92554}
+  m_SizeDelta: {x: 1121.6998, y: 2107.8225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &996558342
 MonoBehaviour:
@@ -8823,36 +9610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "        Filipino popular culture continued to thrive, with music, film,
-    and television playing significant roles. OPM (Original Pilipino Music) artists
-    continued to produce diverse genres, reflecting the country's linguistic and
-    cultural diversity. Filipino films gained international recognition, and the
-    local television industry produced a wide range of content.\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n      
-    The rise of social media platforms had a profound impact on Filipino society,
-    especially among the younger generation. Social media became a powerful tool
-    for activism, cultural expression, and connecting with global trends. It also
-    influenced fashion, language, and lifestyle choices, contributing to the evolution
-    of youth culture.\r\n\r\n       While English remained an official language and
-    a crucial medium of instruction, efforts were made to promote and preserve Filipino
-    languages. Local languages and dialects continued to be spoken in various regions,
-    contributing to the country's linguistic diversity. The education system underwent
-    changes, addressing the need for modernization and relevance to the evolving
-    global landscape.\r\n\r\n       The Philippines remained predominantly Roman
-    Catholic, and religious practices continued to be a significant aspect of Filipino
-    life. Traditional religious festivals, processions, and devotions played a central
-    role in communities across the archipelago.\r\n\r\n       Filipino cuisine gained
-    international recognition, with its unique blend of flavors and influences. Local
-    chefs and food enthusiasts explored traditional and modern culinary techniques,
-    showcasing the diversity of Filipino dishes. Street food, traditional recipes,
-    and innovative fusions contributed to the vibrancy of the culinary scene.\r\n\n      
-    Filipino artists and writers continued to explore themes that reflected the nation's
-    history, identity, and contemporary issues. Visual arts, literature, and performance
-    arts provided platforms for expressing cultural narratives, fostering creativity,
-    and addressing societal concerns.\r \n\n     Globalization and modernization
-    posed challenges to the preservation of traditional cultures. Efforts were made
-    to balance the embrace of modernity with the need to safeguard indigenous practices
-    and rituals. Cultural heritage conservation projects aimed to protect historical
-    sites, artifacts, and traditions from the impact of development."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -8928,6 +9686,176 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996558340}
+  m_CullTransparentMesh: 1
+--- !u!114 &996558344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996558340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!1 &999789353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 999789354}
+  - component: {fileID: 999789356}
+  - component: {fileID: 999789355}
+  m_Layer: 5
+  m_Name: Detail1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &999789354
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999789353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1712038947}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70654, y: -1335.326}
+  m_SizeDelta: {x: 1127.4131, y: 649.7466}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &999789355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999789353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "     Sa larangan ng ekonomiya, naging bahagi ng pangunahing gawain ng
+    mga sinaunang Pilipino ang pagsasaka, pangingisda, at kalakalan. Ang bawat barangay
+    ay may kani-kanilang mga pamumuhay na nakasalalay sa likas-yaman ng kanilang
+    lugar. Ang mga ritwal at seremonya, gayundin ang pagsusulat sa Baybayin, ay nagpapakita
+    ng kahalagahan ng relihiyosidad at kultura sa pang-araw-araw na buhay ng mga
+    sinaunang Pilipino.\r\n\r\n     Sa ganitong sistema ng pamahalaan, ang bawat
+    datu ay nagbibigay ng liderato sa kanyang sariling barangay, at ang ugnayan ng
+    mga ito ay masusing itinataguyod sa pamamagitan ng pakikipagkalakalan at pagsasama-sama
+    sa iba't ibang\r \npagtitipon. Isa itong masalimuot na yugto na naglalarawan
+    ng yaman ng Pilipinas sa aspeto ng kultura, relihiyon, at ekonomiya bago pa man
+    dumating ang panahon ng kolonyalismo.\r\n\r\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40.1
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &999789356
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999789353}
   m_CullTransparentMesh: 1
 --- !u!1 &1009115729
 GameObject:
@@ -9436,7 +10364,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VISIT CALENDAR
+  m_text: KALENDARYO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -9647,7 +10575,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099102486}
   m_CullTransparentMesh: 1
---- !u!1 &1108683635
+--- !u!1 &1117958998
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9655,9 +10583,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1108683636}
-  - component: {fileID: 1108683638}
-  - component: {fileID: 1108683637}
+  - component: {fileID: 1117958999}
+  - component: {fileID: 1117959001}
+  - component: {fileID: 1117959000}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -9665,32 +10593,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1108683636
+--- !u!224 &1117958999
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1108683635}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1117958998}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1881403027}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030094, y: -87}
-  m_SizeDelta: {x: 876.9206, y: 516.621}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -1227.9458}
+  m_SizeDelta: {x: 1127.4131, y: 613.63}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1108683637
+--- !u!114 &1117959000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1108683635}
+  m_GameObject: {fileID: 1117958998}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -9714,13 +10642,155 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &1108683638
+--- !u!222 &1117959001
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1108683635}
+  m_GameObject: {fileID: 1117958998}
+  m_CullTransparentMesh: 1
+--- !u!1 &1121752832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1121752833}
+  - component: {fileID: 1121752835}
+  - component: {fileID: 1121752834}
+  m_Layer: 5
+  m_Name: Detail1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1121752833
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121752832}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 996558341}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -2139.5566}
+  m_SizeDelta: {x: 1127.4131, y: 842.3999}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1121752834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121752832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "      Sa aspeto ng teknolohiya at globalisasyon, dumaranas ang Pilipinas
+    ng masalimuot na pagbabago. Ang mas mabilis na koneksyon sa internet at paglaganap
+    ng teknolohiya ay nagbibigay-daan sa mas malawak na access sa impormasyon at
+    oportunidad.\r\n\r\n     Hindi rin maitatangi ang patuloy na pagsusuri at diskurso
+    hinggil sa kasaysayan at kultura ng bansa. Ang pagpapahalaga sa sariling wika,
+    tradisyon, at sining ay patuloy na nagbibigay-buhay sa pag-usbong ng kulturang
+    Filipino.\r\n\r\n     Ang bansa ay patuloy na bumubuo at nag-aadapt sa mga hamon
+    ng panahon, at ang pagtutulungan ng mamamayan, pamahalaan, at iba't ibang sektor
+    ng lipunan ay mahalaga sa pagtahak tungo sa mas maunlad at makatarunganang kinabukasan."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 49.05
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1121752835
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121752832}
   m_CullTransparentMesh: 1
 --- !u!1 &1126722302
 GameObject:
@@ -9838,6 +10908,150 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135829963}
+  m_CullTransparentMesh: 1
+--- !u!1 &1135881709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1135881710}
+  - component: {fileID: 1135881712}
+  - component: {fileID: 1135881711}
+  m_Layer: 5
+  m_Name: Detail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1135881710
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135881709}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1794856078}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -355.3571}
+  m_SizeDelta: {x: 1127.4131, y: 710.7142}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1135881711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135881709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "      Sa panahon ng pananakop ng mga Amerikano sa Pilipinas, na nagsimula
+    noong 1898 matapos ang Spanish-American War, umusbong ang isang bagong yugto
+    sa kasaysayan ng bansa. Ang Treaty of Paris noong 1898 ay nagluwal sa paglipat
+    ng soberanya mula sa Espanya patungo sa Estados Unidos. Bagamat isinadlak ang
+    Pilipinas sa isang panibagong anyo ng kolonyalismo, itinaguyod din ang mga reporma
+    at modernisasyon.\r\n\r\n      Ang mga Amerikano ay nagtatag ng sistema ng edukasyon,
+    kung saan ipinakilala ang Ingles bilang pangunahing wika ng pagtuturo. Binuksan
+    ang mga paaralan at unibersidad na nagbukas ng oportunidad para sa mas maraming
+    Pilipino na makatanggap ng edukasyon. Isinagawa rin ang mga proyektong imprastruktura
+    tulad ng mga daan, tulay, at iba pang imprastruktura na nag-ambag sa modernisasyon
+    ng bansa."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 42
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1135881712
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135881709}
   m_CullTransparentMesh: 1
 --- !u!1 &1135952040
 GameObject:
@@ -10217,8 +11431,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2014685336}
   m_HandleRect: {fileID: 2014685335}
   m_Direction: 3
-  m_Value: -0.00000070596667
-  m_Size: 0.26428372
+  m_Value: 0.000000012244612
+  m_Size: 0.2818874
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -10297,6 +11511,152 @@ RectTransform:
   m_AnchoredPosition: {x: -4.9999695, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1212584416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1212584417}
+  - component: {fileID: 1212584419}
+  - component: {fileID: 1212584418}
+  m_Layer: 5
+  m_Name: Detail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1212584417
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212584416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 361096782}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70654, y: -524.69354}
+  m_SizeDelta: {x: 1127.4131, y: 1049.3871}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1212584418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212584416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "      Matapos ang Mahigit-kumulang tatlong siglong pagtitiis sa ilalim
+    ng iba't ibang dayuhang kapangyarihan, isinilang ang Republika ng Pilipinas noong
+    Hulyo 4, 1946. Ang araw na ito ay nagmarka ng opisyal na kasarinlan ng bansa
+    mula sa mga Amerikano matapos ang Ikalawang Digmaang Pandaigdig.\r\n\r\n     
+    Ang pagtatatag ng independiyenteng Republika ng Pilipinas ay sinundan ng isang
+    masalimuot na panahon ng pagtataguyod at pagbuo ng bansa. Inilunsad ni Pangulong
+    Manuel Roxas ang mga reporma sa ekonomiya at pulitika upang maisakatuparan ang
+    rekonstruksyon pagkatapos ng digmaan. Binuksan ang ekonomiya sa dayuhang negosyo
+    at nagsimula ang pagsulong sa industriyalisasyon.\r\n\r\n       Sa larangan ng
+    pulitika, ipinagpatuloy ng mga sumunod na administrasyon ang pagpapalakas ng
+    demokrasya at nagsulong ng mga repormang pampulitika. Ngunit, gaya ng maraming
+    ibang mga bansa sa rehiyon, dumaranas din ang Pilipinas ng mga suliranin tulad
+    ng katiwalian sa pamahalaan, social inequality, at insurgency."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 46.7
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1212584419
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212584416}
+  m_CullTransparentMesh: 1
 --- !u!1 &1215149136
 GameObject:
   m_ObjectHideFlags: 0
@@ -10589,8 +11949,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 993301942}
   m_HandleRect: {fileID: 993301941}
   m_Direction: 3
-  m_Value: -0.00000024560484
-  m_Size: 0.20250903
+  m_Value: 0.08618562
+  m_Size: 0.18837675
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -10767,7 +12127,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226796981}
   m_CullTransparentMesh: 1
---- !u!1 &1295090613
+--- !u!1 &1250261453
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10775,42 +12135,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1295090614}
-  - component: {fileID: 1295090616}
-  - component: {fileID: 1295090615}
+  - component: {fileID: 1250261454}
+  - component: {fileID: 1250261456}
+  - component: {fileID: 1250261455}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Detail1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1295090614
+--- !u!224 &1250261454
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295090613}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1250261453}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1712038947}
+  m_Father: {fileID: 361096782}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000046557, y: -383.37393}
-  m_SizeDelta: {x: 1076, y: 595.0522}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70654, y: -2145.1152}
+  m_SizeDelta: {x: 1127.4131, y: 842.3999}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1295090615
+--- !u!114 &1250261455
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295090613}
+  m_GameObject: {fileID: 1250261453}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -10824,17 +12184,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "      The precolonial era in the Philippines, which spans thousands of
-    years before the arrival of Spanish colonizers in the 16th century, is a fascinating
-    chapter in the country's history. During this time, the archipelago was home
-    to a myriad of indigenous communities, each with its distinct language, customs,
-    and traditions.\r\n\r\n       The social organization of these communities was
-    centered around barangays, which were independent and self-sufficient village
-    units led by a datu, a local chief or leader. The datu played a crucial role
-    in maintaining order, resolving disputes, and overseeing the well-being of the
-    community. Despite the autonomy of each barangay, there were often alliances
-    and trade networks established among them, contributing to a complex web of relationships
-    across the archipelago."
+  m_text: "      Ang mga pangulo sa mga sumunod na dekada, tulad nina Presidents
+    Ramon Magsaysay, Diosdado Macapagal, Ferdinand Marcos, at Corazon Aquino, ay
+    nag-ambag sa pag-usbong at pag-unlad ng bansa. Subalit, ang panunungkulan ni
+    Marcos, na nagsimula noong 1965, ay naging kilalang yugto sa kasaysayan ng Pilipinas
+    dahil sa batas militar, human rights abuses, at pang-aabuso sa kapangyarihan.\r\n\r\n     
+    Matapos ang People Power Revolution noong 1986, nagsimula ang panibagong yugto
+    ng demokrasya sa Pilipinas. Ang EDSA Revolution ay naghatid kay Corazon Aquino
+    bilang pangulo, na nagsilbing simbolo ng pagbabalik ng demokrasya at pagkilos
+    ng mamamayan para sa kanilang karapatan.\r\n\r\n      Sa kabila ng mga pagsubok
+    at hamon, tulad ng natural na kalamidad, krisis ekonomiko, at pulitikal na hidwaan,
+    patuloy na lumalago at nagbabago ang Pilipinas bilang isang nagiging mas malakas
+    na demokratikong bansa sa rehiyon ng Timog-Silangang Asya."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -10843,8 +12204,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278257946
-  m_fontColor: {r: 0.103773594, g: 0.0344365, b: 0.0034264885, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -10861,14 +12222,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 43.7
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -10903,13 +12264,13 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1295090616
+--- !u!222 &1250261456
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295090613}
+  m_GameObject: {fileID: 1250261453}
   m_CullTransparentMesh: 1
 --- !u!1 &1295693770
 GameObject:
@@ -10943,7 +12304,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 838278920}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.64002925}
+  m_AnchorMin: {x: 0, y: 0.7054885}
   m_AnchorMax: {x: 1, y: 0.99999833}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -11054,8 +12415,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 629477873}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.74210274}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0.6789893}
+  m_AnchorMax: {x: 1, y: 0.91497815}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -11659,6 +13020,149 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1343994552}
   m_CullTransparentMesh: 1
+--- !u!1 &1369638627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1369638630}
+  - component: {fileID: 1369638629}
+  - component: {fileID: 1369638628}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1369638628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369638627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b8e578441f7e84dbf8dd9c48cb52f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openClip: {fileID: 8300000, guid: 41fe389abc552ae4ea67e78dcfbfa9fb, type: 3}
+  closeClip: {fileID: 8300000, guid: 08ab2ec7fb4062046adb6e0039239d2e, type: 3}
+--- !u!82 &1369638629
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369638627}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1369638630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369638627}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 485.42368, y: 585.60345, z: 52079.023}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1372314212
 GameObject:
   m_ObjectHideFlags: 0
@@ -11825,8 +13329,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 137860692}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.76081043}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0.6822429}
+  m_AnchorMax: {x: 1, y: 0.8967652}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -12285,7 +13789,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: RANDOM FACTS
+  m_text: ALAM MO BA?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -12699,7 +14203,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &1525445358
+--- !u!1 &1504577204
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12707,45 +14211,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1525445359}
-  - component: {fileID: 1525445361}
-  - component: {fileID: 1525445360}
+  - component: {fileID: 1504577205}
+  - component: {fileID: 1504577207}
+  - component: {fileID: 1504577206}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Detail1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1525445359
+--- !u!224 &1504577205
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1525445358}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1504577204}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1794856078}
+  m_Father: {fileID: 762051954}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030094, y: -171}
-  m_SizeDelta: {x: 876.9206, y: 516.621}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -152.005}
+  m_SizeDelta: {x: 1127.4131, y: 304.01}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1525445360
+--- !u!114 &1504577206
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1525445358}
+  m_GameObject: {fileID: 1504577204}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -12756,23 +14260,86 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0920c9f2e1f9f794ebf8b7135bc1c661, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1525445361
+  m_text: '       Ang pananakop ng mga Espanyol sa Pilipinas noong ika-16 siglo ay
+    nagbigay daan sa isang kaharian ng kolonyalismo na nagtagal ng mahigit tatlong
+    daang taon. Sa unang pag-aklas ng 1565, ang mga Espanyol, sa pangunguna ni Miguel
+    Lopez de Legazpi, ay nagtagumpay sa pagtatatag ng kolonya sa Cebu. Mula rito,
+    sumunod ang pag-angkin sa iba''t ibang bahagi ng kapuluan.'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 43.4
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1504577207
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1525445358}
+  m_GameObject: {fileID: 1504577204}
   m_CullTransparentMesh: 1
 --- !u!1 &1546061617
 GameObject:
@@ -13132,7 +14699,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: WHAT IS MAPA FOR?
+  m_text: PARA SAAN ANG MAPA?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -13266,7 +14833,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VISIT CALENDAR
+  m_text: KALENDARYO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -13436,6 +15003,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1369638628}
+        m_TargetAssemblyTypeName: AudioScript, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: open
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1626778346
@@ -13782,8 +15361,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1379877496}
   m_HandleRect: {fileID: 1379877495}
   m_Direction: 3
-  m_Value: 0.000000009808299
-  m_Size: 0.23918958
+  m_Value: 0.13142933
+  m_Size: 0.21452232
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14002,6 +15581,7 @@ GameObject:
   - component: {fileID: 1712038947}
   - component: {fileID: 1712038949}
   - component: {fileID: 1712038948}
+  - component: {fileID: 1712038950}
   m_Layer: 5
   m_Name: Description
   m_TagString: Untagged
@@ -14021,14 +15601,15 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 344145419}
   - {fileID: 239625517}
-  - {fileID: 1295090614}
+  - {fileID: 999789354}
   m_Father: {fileID: 619591481}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -588.8694, y: -436.3113}
-  m_SizeDelta: {x: 1121.6998, y: 866.8723}
+  m_AnchoredPosition: {x: -588.8694, y: -587.331}
+  m_SizeDelta: {x: 1121.6998, y: 1168.9119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1712038948
 MonoBehaviour:
@@ -14050,11 +15631,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '     The precolonial era in the Philippines represents a time of diverse
-    indigenous cultures organized into independent barangays, each led by a datu.
-    With a decentralized political structure, societies engaged in agriculture, fishing,
-    and trade. Animist beliefs and rituals, along with the Baybayin script, characterized
-    this period''s rich cultural tapestry.'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -14131,6 +15708,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712038946}
   m_CullTransparentMesh: 1
+--- !u!114 &1712038950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712038946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 44.5
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &1717500567
 GameObject:
   m_ObjectHideFlags: 0
@@ -14671,81 +16274,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760326551}
   m_CullTransparentMesh: 1
---- !u!1 &1761139677
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1761139678}
-  - component: {fileID: 1761139680}
-  - component: {fileID: 1761139679}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1761139678
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761139677}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 361096782}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000055313, y: 79}
-  m_SizeDelta: {x: 974.812, y: 588.7516}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1761139679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761139677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4449505db95732a49a84a76dd9c3566d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1761139680
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761139677}
-  m_CullTransparentMesh: 1
 --- !u!1 &1763820072
 GameObject:
   m_ObjectHideFlags: 0
@@ -15146,6 +16674,7 @@ GameObject:
   - component: {fileID: 1794856078}
   - component: {fileID: 1794856080}
   - component: {fileID: 1794856079}
+  - component: {fileID: 1794856081}
   m_Layer: 5
   m_Name: Description
   m_TagString: Untagged
@@ -15165,13 +16694,15 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1525445359}
+  - {fileID: 1135881710}
+  - {fileID: 349901860}
+  - {fileID: 1884866791}
   m_Father: {fileID: 474447021}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -588.8694, y: 702.2852}
-  m_SizeDelta: {x: 1121.6997, y: 1404.564}
+  m_AnchoredPosition: {x: -588.8694, y: 614.16595}
+  m_SizeDelta: {x: 1121.6998, y: 1580.8025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1794856079
 MonoBehaviour:
@@ -15193,30 +16724,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "      The American colonial period in the Philippines, which followed
-    the defeat of Spanish forces in the Spanish-American War and the signing of the
-    Treaty of Paris in 1898, ushered in a new chapter in the nation's history. Lasting
-    until the end of World War II in 1946, the American period brought profound changes
-    to the political, economic, and social landscape of the Philippines.\r\n\r\n     
-    Under American rule, the Philippines transitioned from Spanish colonial governance
-    to American military control. The United States, viewing the Philippines as a
-    strategic foothold in Asia, initially governed the archipelago through military
-    commanders. Eventually, a civilian government was established, headed by the
-    Governor-General.\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n      One of the significant
-    contributions of the American colonial administration was the emphasis on education
-    and infrastructure. Public education was introduced, and English became the medium
-    of instruction. The establishment of schools and the improvement of transportation
-    and communication networks laid the groundwork for modernization.\r\n\r\n      
-    The American period saw the implementation of policies that aimed to modernize
-    the Philippine economy. The introduction of a free-market system, the construction
-    of roads and bridges, and the expansion of cash-crop agriculture transformed
-    the economic landscape. However, this period also witnessed the concentration
-    of landownership in the hands of a few wealthy families.\r\n\r\n       American
-    influence left an indelible mark on Filipino culture. English became the lingua
-    franca of education, governance, and business. Western-style governance and legal
-    systems were introduced, and American pop culture began to permeate Filipino
-    society. This period also saw the emergence of a nascent Filipino nationalism
-    and the quest for independence."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -15292,6 +16800,107 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794856077}
+  m_CullTransparentMesh: 1
+--- !u!114 &1794856081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794856077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!1 &1802412617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1802412618}
+  - component: {fileID: 1802412620}
+  - component: {fileID: 1802412619}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1802412618
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802412617}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 996558341}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -1372.4255}
+  m_SizeDelta: {x: 1127.4131, y: 613.63}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1802412619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802412617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ff4a57a6084e1f040804f53cbd5bc78b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1802412620
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802412617}
   m_CullTransparentMesh: 1
 --- !u!1 &1807901680
 GameObject:
@@ -15418,6 +17027,151 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813642524}
+  m_CullTransparentMesh: 1
+--- !u!1 &1818720982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818720983}
+  - component: {fileID: 1818720985}
+  - component: {fileID: 1818720984}
+  m_Layer: 5
+  m_Name: Detail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1818720983
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818720982}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 996558341}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -513.24725}
+  m_SizeDelta: {x: 1127.4131, y: 1026.4945}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1818720984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818720982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "      Sa kasalukuyan, patuloy ang Pilipinas sa pagharap sa iba't ibang
+    hamon at pagbabago sa larangan ng pulitika, ekonomiya, lipunan, at kultura. Isang
+    pangunahing usapin ay ang patuloy na laban ng bansa sa COVID-19 pandemic, na
+    nagdulot ng malawakang epekto sa kalusugan, ekonomiya, at pang-araw-araw na pamumuhay
+    ng mga Pilipino.\r\n\r\n     Sa larangan ng pulitika, ang Pilipinas ay patuloy
+    na sumasailalim sa masusing obserbasyon at pagtatalima sa prinsipyong demokrasya.
+    Ang pagbabalik-tanaw sa mga nagdaang eleksyon at ang pagpapahayag ng mamamayan
+    sa kanilang mga karapatan at damdamin ay bahagi ng aktibong paglahok sa pulitikal
+    na proseso.\r\n \r\n     Sa ekonomiya, inilunsad ang iba't ibang programa at
+    proyektong pang-ekonomiya upang palakasin ang industriyalisasyon at pangmatagalan
+    na kaunlaran. Subalit, nararanasan pa rin ang mga isyu tulad ng kahirapan, hindi
+    pantay-pantay na paglago, at unemployment."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 48.15
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1818720985
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818720982}
   m_CullTransparentMesh: 1
 --- !u!1 &1821131473
 GameObject:
@@ -16114,6 +17868,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1369638628}
+        m_TargetAssemblyTypeName: AudioScript, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: close
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1871309688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16163,6 +17929,7 @@ GameObject:
   - component: {fileID: 1881403027}
   - component: {fileID: 1881403029}
   - component: {fileID: 1881403028}
+  - component: {fileID: 1881403030}
   m_Layer: 5
   m_Name: Description
   m_TagString: Untagged
@@ -16182,13 +17949,15 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1108683636}
+  - {fileID: 216895755}
+  - {fileID: 1117958999}
+  - {fileID: 596176380}
   m_Father: {fileID: 1670544022}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -588.8694, y: 776.4133}
-  m_SizeDelta: {x: 1121.6998, y: 1552.8218}
+  m_AnchoredPosition: {x: -588.8694, y: 658.7114}
+  m_SizeDelta: {x: 1121.6997, y: 1788.2256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1881403028
 MonoBehaviour:
@@ -16210,30 +17979,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "     The Japanese occupation of the Philippines during World War II, from
-    1942 to 1945, represents a tumultuous and challenging period in the nation's
-    history. This era was marked by the harsh realities of war, economic struggles,
-    and the Filipinos' resilience against foreign oppression.\r\n\r\n      In 1941,
-    the Philippines became a battleground in the Pacific theater of World War II.
-    Japanese forces swiftly overran the archipelago, leading to the fall of the Commonwealth
-    government and the beginning of a brutal occupation. The occupation was marked
-    by strict control, censorship, and the imposition of Japanese culture.\r\n\r\n     
-    The Japanese occupation brought economic hardships to the Philippines. The Japanese
-    exploited the country's resources for their war effort, leading to widespread
-    poverty and famine. The pre-war economic gains were reversed, and Filipinos faced
-    scarcity of basic necessities.\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n      Despite
-    the challenges, Filipinos mounted various forms of resistance against Japanese
-    rule. Guerrilla warfare, spearheaded by groups like the Hukbalahap, intensified
-    in the rural areas. Civilian populations also engaged in acts of resistance,
-    ranging from sabotage to the dissemination of anti-Japanese propaganda.\r\n\n     
-    The Japanese sought to assimilate Filipinos into their vision of a Greater East
-    Asia Co-Prosperity Sphere. This involved the propagation of Japanese language
-    and culture, and efforts to erase elements of Filipino identity. However, these
-    attempts were met with resistance, as Filipinos held on to their language, traditions,
-    and cultural practices.\r\n\r\n      In 1945, as the tide of the war turned against
-    Japan, the Battle of Manila ensued. The city suffered extensive damage as American
-    and Filipino forces sought to liberate it from Japanese control. The battle resulted
-    in the loss of numerous lives and the destruction of significant cultural heritage."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -16309,6 +18055,173 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881403026}
+  m_CullTransparentMesh: 1
+--- !u!114 &1881403030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881403026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!1 &1884866790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1884866791}
+  - component: {fileID: 1884866793}
+  - component: {fileID: 1884866792}
+  m_Layer: 5
+  m_Name: Detail1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1884866791
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884866790}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1794856078}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 563.70667, y: -1715.0586}
+  m_SizeDelta: {x: 1127.4131, y: 649.7466}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1884866792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884866790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "      Ngunit, hindi rin nawala ang pagtutol at paglaban ng ilang sektor
+    ng lipunan laban sa Amerikano. Isinagawa ang Balangiga Massacre noong 1901, isang
+    pangyayaring nagdulot ng pagtindig ng mga Pilipino laban sa mga Amerikano. Bumuo
+    ng pambansang identidad ang mga Pilipino sa pamamagitan ng paglalabas ng mga
+    akdang pampanitikan na naglalarawan ng kanilang karanasan sa ilalim ng kolonyal
+    na pamahalaan.\r\n\r\n      Hanggang sa pagtatapos ng American period noong 1946,
+    ang Pilipinas ay naging labis na naapektohan ng mga pagbabago sa pulitika, ekonomiya,
+    at kultura dahil sa impluwensya ng mga Amerikano."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 47.1
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1884866793
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884866790}
   m_CullTransparentMesh: 1
 --- !u!1 &1909613434
 GameObject:
@@ -16778,8 +18691,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1974729498}
   m_HandleRect: {fileID: 1974729497}
   m_Direction: 3
-  m_Value: 0.000000008593042
-  m_Size: 0.21597867
+  m_Value: 0.1587093
+  m_Size: 0.18815152
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -17004,8 +18917,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1055798500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.7840213}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0.68300056}
+  m_AnchorMax: {x: 1, y: 0.8711521}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -17288,7 +19201,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 976443739}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.7357163}
+  m_AnchorMin: {x: 0, y: 0.7181126}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -18471,3 +20384,4 @@ SceneRoots:
   - {fileID: 701115247}
   - {fileID: 552024154}
   - {fileID: 506704410}
+  - {fileID: 1369638630}
