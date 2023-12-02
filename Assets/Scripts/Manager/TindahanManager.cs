@@ -39,6 +39,25 @@ public class TindahanManager : MonoBehaviour
         hasSandalyas = PlayerPrefs.GetInt("hasSandalyas") == 1;
         hasBarongTagalog = PlayerPrefs.GetInt("hasBarongTagalog") == 1;
         hasBalintawak = PlayerPrefs.GetInt("hasBalintawak") == 1;
+        isSibatEquiped = PlayerPrefs.GetInt("isSibatEquiped") == 1;
+        isKrisEquiped = PlayerPrefs.GetInt("isKrisEquiped") == 1;
+        isKampilanEquiped = PlayerPrefs.GetInt("isKampilanEquiped") == 1;
+        isBahagEquiped = PlayerPrefs.GetInt("isBahagEquiped") == 1;
+        isKanganEquiped = PlayerPrefs.GetInt("isKanganEquiped") == 1;
+        isPudongEquiped = PlayerPrefs.GetInt("isPudongEquiped") == 1;
+
+        if (isBahagEquiped)
+            Equip("isBahagEquiped");
+        else if (isKrisEquiped)
+            Equip("isKrisEquiped");
+        else if (isKampilanEquiped)
+            Equip("isKampilanEquiped");
+        if (isBahagEquiped)
+            Equip("isBahagEquiped");
+        else if (isKanganEquiped)
+            Equip("isKanganEquiped");
+        else if (isPudongEquiped)
+            Equip("isPudongEquiped");
     }
 
     public void Save()
@@ -63,6 +82,12 @@ public class TindahanManager : MonoBehaviour
         SetBoolean("hasSandalyas", hasSandalyas);
         SetBoolean("hasBarongTagalog", hasBarongTagalog);
         SetBoolean("hasBalintawak", hasBalintawak);
+        SetBoolean("isSibatEquiped", isSibatEquiped);
+        SetBoolean("isKrisEquiped", isKrisEquiped);
+        SetBoolean("isKampilanEquiped", isKampilanEquiped);
+        SetBoolean("isBahagEquiped", isBahagEquiped);
+        SetBoolean("isKanganEquiped", isKanganEquiped);
+        SetBoolean("isPudongEquiped", isPudongEquiped);
     }
 
     public void Reset()
@@ -86,7 +111,50 @@ public class TindahanManager : MonoBehaviour
         hasSandalyas = false;
         hasBarongTagalog = false;
         hasBalintawak = false;
+        isSibatEquiped = true;
+        isKrisEquiped = false;
+        isKampilanEquiped = false;
+        isBahagEquiped = true;
+        isKanganEquiped = false;
+        isPudongEquiped = false;
         Save();
+    }
+
+    public void Equip(string name)
+    {
+        switch (name)
+        {
+            case "isSibatEquiped":
+                SetBoolean("name", true);
+                SetBoolean("isKrisEquiped", false);
+                SetBoolean("isKampilanEquiped", false);
+                break;
+            case "isKrisEquiped":
+                SetBoolean("name", true);
+                SetBoolean("isSibatEquiped", false);
+                SetBoolean("isKampilanEquiped", false);
+                break;
+            case "isKampilanEquiped":
+                SetBoolean("name", true);
+                SetBoolean("isKrisEquiped", false);
+                SetBoolean("isSibatEquiped", false);
+                break;
+            case "isBahagEquiped":
+                SetBoolean("name", true);
+                SetBoolean("isKanganEquiped", false);
+                SetBoolean("isPudongEquiped", false);
+                break;
+            case "isKanganEquiped":
+                SetBoolean("name", true);
+                SetBoolean("isBahagEquiped", false);
+                SetBoolean("isPudongEquiped", false);
+                break;
+            case "isPudongEquiped":
+                SetBoolean("name", true);
+                SetBoolean("isBahagEquiped", false);
+                SetBoolean("isKanganEquiped", false);
+                break;
+        }
     }
 
     public void SetBoolean(string key, bool value)
