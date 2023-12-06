@@ -428,7 +428,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 5104325}
   m_OnClick:
     m_PersistentCalls:
@@ -602,7 +602,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 12029568}
   m_OnClick:
     m_PersistentCalls:
@@ -912,7 +912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &45553724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1771,7 +1771,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4673038156617973690, guid: 3ff5c3f82c985104c9863efdb475c1dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 29fb8f2dcedccf04689f795c17675e50, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1826,10 +1826,10 @@ RectTransform:
   - {fileID: 898128581}
   m_Father: {fileID: 1552851224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2474.04, y: -209.26277}
+  m_SizeDelta: {x: 270, y: 393.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &113030773
 MonoBehaviour:
@@ -1964,7 +1964,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 116347217}
   m_OnClick:
     m_PersistentCalls:
@@ -2619,7 +2619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &150658753
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2738,7 +2738,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 156447504}
   m_OnClick:
     m_PersistentCalls:
@@ -3076,9 +3076,6 @@ RectTransform:
   - {fileID: 1822276935}
   - {fileID: 145985217}
   - {fileID: 1905214096}
-  - {fileID: 777907918}
-  - {fileID: 1157242620}
-  - {fileID: 287793435}
   - {fileID: 556057106}
   - {fileID: 918997385}
   m_Father: {fileID: 0}
@@ -3145,7 +3142,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4974515733481880882, guid: bae232bd36bc68b4384e5c687434fb8d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 57deb9b4a2dd88d48a957828f515ba08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3258,7 +3255,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 222372740}
   m_OnClick:
     m_PersistentCalls:
@@ -3619,81 +3616,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249373695}
   m_CullTransparentMesh: 1
---- !u!1 &256414297
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 256414298}
-  - component: {fileID: 256414300}
-  - component: {fileID: 256414299}
-  m_Layer: 5
-  m_Name: settings
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &256414298
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256414297}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1157242620}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &256414299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256414297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 29cd5fa083a9a4d448c49c770629f19e, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &256414300
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256414297}
-  m_CullTransparentMesh: 1
 --- !u!1 &280653145
 GameObject:
   m_ObjectHideFlags: 0
@@ -3730,10 +3652,10 @@ RectTransform:
   - {fileID: 755137609}
   m_Father: {fileID: 1552851224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1304.52, y: -209.26277}
+  m_SizeDelta: {x: 270, y: 393.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280653147
 MonoBehaviour:
@@ -4004,7 +3926,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 287612543}
   m_OnClick:
     m_PersistentCalls:
@@ -4083,83 +4005,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97908fdefd2233d408c04d274986db93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &287793434
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 287793435}
-  - component: {fileID: 287793437}
-  - component: {fileID: 287793436}
-  m_Layer: 5
-  m_Name: QuestionMarkPanel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &287793435
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 287793434}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 845418645}
-  - {fileID: 1077380698}
-  m_Father: {fileID: 201907092}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.38, y: 60.22}
-  m_SizeDelta: {x: 925.13, y: 478.73}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &287793436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 287793434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1053446263c16bd439f8952682660694, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &287793437
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 287793434}
-  m_CullTransparentMesh: 1
 --- !u!1 &291500176
 GameObject:
   m_ObjectHideFlags: 0
@@ -4217,7 +4062,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Purchase
+  m_text: Nabili Na
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -4426,7 +4271,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2309122751773492581, guid: 881669926b6bd9845a66b7839ff82eca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ea0d68aa080d1cd42b8c819b6d45c255, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4616,10 +4461,10 @@ RectTransform:
   - {fileID: 344105604}
   m_Father: {fileID: 1376999025}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1595, y: -199.61278}
-  m_SizeDelta: {x: 270, y: 393.6}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &363185605
 MonoBehaviour:
@@ -5002,10 +4847,10 @@ RectTransform:
   - {fileID: 382497620}
   m_Father: {fileID: 1376999025}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 135, y: -199.61278}
-  m_SizeDelta: {x: 270, y: 393.6}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &445389133
 MonoBehaviour:
@@ -5141,7 +4986,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 452399826}
   m_OnClick:
     m_PersistentCalls:
@@ -5289,7 +5134,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b218fed1d544e12419f41ac7ad3fdd0a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 24c082cbf4ac6554692733948ef1ba43, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5343,10 +5188,10 @@ RectTransform:
   - {fileID: 485852065}
   m_Father: {fileID: 1376999025}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1887, y: -199.61278}
-  m_SizeDelta: {x: 270, y: 393.6}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &468677105
 MonoBehaviour:
@@ -6644,10 +6489,10 @@ RectTransform:
   - {fileID: 51656894}
   m_Father: {fileID: 1552851224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 719.76, y: -209.26277}
+  m_SizeDelta: {x: 270, y: 393.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &575854071
 MonoBehaviour:
@@ -7165,10 +7010,10 @@ RectTransform:
   - {fileID: 1059654880}
   m_Father: {fileID: 1552851224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1596.9, y: -209.26277}
+  m_SizeDelta: {x: 270, y: 393.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &643662851
 MonoBehaviour:
@@ -7308,10 +7153,10 @@ RectTransform:
   - {fileID: 1529636295}
   m_Father: {fileID: 1552851224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 135, y: -209.26277}
+  m_SizeDelta: {x: 270, y: 393.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &673226650
 MonoBehaviour:
@@ -8107,21 +7952,36 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Para sa mga babae, ang "bahag" ay isang tradisyonal na kasuotan na karaniwang
-    gawa sa mga pinilipit na dahon o kahoy. Karaniwang sinusuot ito ng mga kababaihan
-    sa iba''t ibang tribo sa Pilipinas bilang pang-ibaba o pang-itaas, at maaari
-    rin itong ipakita ang estado o ranggo sa lipunan. Ang bahag para sa mga babae
-    ay may iba''t ibang disenyo at kulay depende sa kultura at rehiyon.
+  m_text: 'Ang "baro," "salawal," at "alahas" ay tatlong integral na bahagi ng pambansang
+    kasuotan at kagandahan sa kultura ng mga Pilipino. Ang "baro," isang pang-itaas
+    na kasuotan, ay nagdudulot ng kasaysayan at elegansya sa mga kababaihan, na karaniwang
+    isinusuot sa mga mahahalagang okasyon. Sa kanyang makukulay na tela at iba''t
+    ibang disenyo, ang "baro" ay nagiging daan upang maipahayag ang kahalagahan ng
+    kagandahan sa pambansang kultura.
 
 
 
-    Para
-    naman sa mga lalaki, ang "bahag" ay isang uri ng tradisyonal na kasuotang pang-ibaba
-    na karaniwang gawa sa mga matibay na materyales tulad ng baston, dahon, o tela.
-    Ito ay may kakaibang disenyo at pagkakagawa depende sa tribo o kultura ng isang
-    komunidad. Ang pagsusuot ng bahag para sa mga lalaki ay maaaring magbigay-diin
-    sa kanilang pagiging tagapagmana o lider sa kanilang lipunan. Ito ay bahagi ng
-    makulay at makasaysayang kasaysayan ng pananamit sa Pilipinas.'
+    Sa kabilang dako, ang "salawal" ay nagpapakita
+    ng kahalagahan ng praktikal na pang-ibaba. Maaaring itong maging pantalon o shorts,
+    at itinatangi bilang bahagi ng pang-araw-araw na kasuotan. Ito ay naglalarawan
+    ng pag-unlad at pagbabago sa istilo ng pananamit, nagbibigay daan sa malayang
+    kilos sa pang-araw-araw na buhay.
+
+
+
+    Ang "alahas," naman, ay nagbibigay-dagdag
+    na kagandahan sa buhay ng mga Pilipino. Ito''y hindi lamang mga yaring ginto
+    o pilak, kundi pati na rin mga natural na materyales tulad ng perlas at koral.
+    Ang mga alahas ay nagbibigay-halaga hindi lamang sa anyo, kundi pati na rin sa
+    kahulugan at kasaysayan ng bawat piraso.
+
+
+
+    Sa kabuuan, ang "baro," "salawal,"
+    at "alahas" ay nagbibigay-tangi sa yaman at kahusayan ng kultura ng mga Pilipino.
+    Ito''y mga kasangkapan na naglalarawan ng pag-usbong at pag-evaolve ng tradisyonal
+    na pananamit, nagpapakita ng kahalagahan ng kagandahan, praktikalidad, at kahulugan
+    sa kanilang araw-araw na pamumuhay.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -8148,7 +8008,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.65
+  m_fontSize: 19.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8197,139 +8057,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769442475}
-  m_CullTransparentMesh: 1
---- !u!1 &777907917
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 777907918}
-  - component: {fileID: 777907922}
-  - component: {fileID: 777907921}
-  - component: {fileID: 777907920}
-  - component: {fileID: 777907919}
-  m_Layer: 5
-  m_Name: QuestionMarkButotn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &777907918
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777907917}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 201907092}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -182.02002, y: -59}
-  m_SizeDelta: {x: 70, y: 70}
-  m_Pivot: {x: 1, y: 1}
---- !u!114 &777907919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777907917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ef16d7f2b00ddc40b0148eba5596e44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &777907920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777907917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 777907921}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &777907921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777907917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8143f852c3cbb53489177bce8ed0d104, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &777907922
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777907917}
   m_CullTransparentMesh: 1
 --- !u!1 &780603603
 GameObject:
@@ -8757,140 +8484,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836556345}
-  m_CullTransparentMesh: 1
---- !u!1 &845418644
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 845418645}
-  - component: {fileID: 845418647}
-  - component: {fileID: 845418646}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &845418645
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845418644}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 287793435}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 457, y: 128.61}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &845418646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845418644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Pagbati, ang bagay na ito ay pag-aari mo na!
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
-  m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &845418647
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845418644}
   m_CullTransparentMesh: 1
 --- !u!1 &847205824
 GameObject:
@@ -11168,10 +10761,10 @@ RectTransform:
   - {fileID: 1035535775}
   m_Father: {fileID: 1376999025}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1303, y: -199.61278}
-  m_SizeDelta: {x: 270, y: 393.6}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013054201
 MonoBehaviour:
@@ -11441,7 +11034,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1025523255}
   m_OnClick:
     m_PersistentCalls:
@@ -12402,126 +11995,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059654879}
   m_CullTransparentMesh: 1
---- !u!1 &1077380697
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1077380698}
-  - component: {fileID: 1077380701}
-  - component: {fileID: 1077380700}
-  - component: {fileID: 1077380699}
-  m_Layer: 5
-  m_Name: CloseButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1077380698
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077380697}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 287793435}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 355, y: 154}
-  m_SizeDelta: {x: 54.37, y: 52.64}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1077380699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077380697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1077380700}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1077380700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077380697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e839e6693c344ad40a5952853a891866, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1077380701
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077380697}
-  m_CullTransparentMesh: 1
 --- !u!1 &1105981124
 GameObject:
   m_ObjectHideFlags: 0
@@ -12697,140 +12170,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef16d7f2b00ddc40b0148eba5596e44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1157242619
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1157242620}
-  - component: {fileID: 1157242624}
-  - component: {fileID: 1157242623}
-  - component: {fileID: 1157242622}
-  - component: {fileID: 1157242621}
-  m_Layer: 5
-  m_Name: SettingsButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1157242620
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157242619}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 256414298}
-  m_Father: {fileID: 201907092}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -65, y: -41.08499}
-  m_SizeDelta: {x: 103.48999, y: 105.83002}
-  m_Pivot: {x: 1, y: 1}
---- !u!114 &1157242621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157242619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ef16d7f2b00ddc40b0148eba5596e44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1157242622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157242619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1157242623}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1157242623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157242619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ed53cef80c26e89409c8c93941be088c, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1157242624
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157242619}
-  m_CullTransparentMesh: 1
 --- !u!1 &1161159318
 GameObject:
   m_ObjectHideFlags: 0
@@ -13038,7 +12377,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b218fed1d544e12419f41ac7ad3fdd0a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 29fb8f2dcedccf04689f795c17675e50, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13092,10 +12431,10 @@ RectTransform:
   - {fileID: 1588671025}
   m_Father: {fileID: 1552851224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2181.6602, y: -209.26277}
+  m_SizeDelta: {x: 270, y: 393.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1220123280
 MonoBehaviour:
@@ -13171,10 +12510,10 @@ RectTransform:
   - {fileID: 1998891458}
   m_Father: {fileID: 1552851224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 427.38, y: -209.26277}
+  m_SizeDelta: {x: 270, y: 393.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1220162061
 MonoBehaviour:
@@ -13843,21 +13182,28 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Para sa mga babae, ang "bahag" ay isang tradisyonal na kasuotan na karaniwang
-    gawa sa mga pinilipit na dahon o kahoy. Karaniwang sinusuot ito ng mga kababaihan
-    sa iba''t ibang tribo sa Pilipinas bilang pang-ibaba o pang-itaas, at maaari
-    rin itong ipakita ang estado o ranggo sa lipunan. Ang bahag para sa mga babae
-    ay may iba''t ibang disenyo at kulay depende sa kultura at rehiyon.
+  m_text: 'Ang "sibat" ay isang tradisyunal na kagamitang pandigma sa kultura ng
+    mga Pilipino. Ito ay isang uri ng palaso o tulos na kilala sa kanyang mahabang
+    katawan at tinik na dulo. Ang "sibat" ay may iba''t ibang gamit depende sa pangangailangan
+    at layunin.
 
 
 
-    Para
-    naman sa mga lalaki, ang "bahag" ay isang uri ng tradisyonal na kasuotang pang-ibaba
-    na karaniwang gawa sa mga matibay na materyales tulad ng baston, dahon, o tela.
-    Ito ay may kakaibang disenyo at pagkakagawa depende sa tribo o kultura ng isang
-    komunidad. Ang pagsusuot ng bahag para sa mga lalaki ay maaaring magbigay-diin
-    sa kanilang pagiging tagapagmana o lider sa kanilang lipunan. Ito ay bahagi ng
-    makulay at makasaysayang kasaysayan ng pananamit sa Pilipinas.'
+    Sa kasaysayan ng Pilipinas, ang "sibat" ay ginagamit sa pangangaso,
+    pangangalap ng pagkain, at sa pakikipaglaban. Ito ay isang mahalagang bahagi
+    ng kultura ng mga tribu at katutubong komunidad sa bansa. Ang paggawa ng "sibat"
+    ay isang sining na ipinamamana mula sa nakaraan, kung saan ang pagbuo nito ay
+    nagrerequire ng kasanayan sa pagtatangkang matagumpay na makabuo ng tamang hugis
+    at tibay.
+
+
+
+    Sa kasalukuyang panahon, ang "sibat" ay maaaring makita pa rin
+    sa ilang tradisyunal na kaganapan o ritwal, at sa mga malalayong lugar kung saan
+    ang mga katutubong pamumuhay ay nananatili. Bagaman maaaring hindi ito pangunahing
+    kagamitan sa pang-araw-araw, ang "sibat" ay nagdadala ng malalim na kahulugan
+    sa kultura at kasaysayan ng Pilipinas, nagpapakita ng kasanayan at galing ng
+    mga sinaunang mandirigma, mangangaso, at manggagamit ng kagamitang pandigma.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -13884,7 +13230,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.65
+  m_fontSize: 22.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -14120,10 +13466,10 @@ RectTransform:
   - {fileID: 145517840}
   m_Father: {fileID: 1376999025}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 427, y: -199.61278}
-  m_SizeDelta: {x: 270, y: 393.6}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1349706548
 MonoBehaviour:
@@ -14207,7 +13553,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.00076136016, y: 0}
-  m_SizeDelta: {x: 917.18286, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1376999026
 MonoBehaviour:
@@ -14343,7 +13689,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1398244194}
   m_OnClick:
     m_PersistentCalls:
@@ -14491,7 +13837,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <b>PRECOLONIAL ERA</b>  | BAHAG
+  m_text: '<b>PRECOLONIAL ERA</b> '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -14862,7 +14208,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1431303222}
   m_OnClick:
     m_PersistentCalls:
@@ -15170,7 +14516,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1499092445}
   m_OnClick:
     m_PersistentCalls:
@@ -15285,10 +14631,10 @@ RectTransform:
   - {fileID: 569902946}
   m_Father: {fileID: 1376999025}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 719, y: -199.61278}
-  m_SizeDelta: {x: 270, y: 393.6}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1507936412
 MonoBehaviour:
@@ -15364,10 +14710,10 @@ RectTransform:
   - {fileID: 1988930717}
   m_Father: {fileID: 1376999025}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1011, y: -199.61278}
-  m_SizeDelta: {x: 270, y: 393.6}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511544831
 MonoBehaviour:
@@ -15579,7 +14925,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1528182309}
   m_OnClick:
     m_PersistentCalls:
@@ -15863,7 +15209,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b218fed1d544e12419f41ac7ad3fdd0a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ea0d68aa080d1cd42b8c819b6d45c255, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15925,7 +15271,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.34596223, y: -32.299988}
+  m_AnchoredPosition: {x: -0.00016195198, y: -32.299988}
   m_SizeDelta: {x: 0, y: -64.6}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1552851225
@@ -16705,7 +16051,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <b>PRECOLONIAL ERA</b>  | BAHAG
+  m_text: '<b>PRECOLONIAL ERA</b> '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -17220,10 +16566,10 @@ RectTransform:
   - {fileID: 63170895}
   m_Father: {fileID: 1376999025}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2471, y: -199.61278}
-  m_SizeDelta: {x: 270, y: 393.6}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1646274049
 MonoBehaviour:
@@ -17456,21 +16802,35 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Para sa mga babae, ang "bahag" ay isang tradisyonal na kasuotan na karaniwang
-    gawa sa mga pinilipit na dahon o kahoy. Karaniwang sinusuot ito ng mga kababaihan
-    sa iba''t ibang tribo sa Pilipinas bilang pang-ibaba o pang-itaas, at maaari
-    rin itong ipakita ang estado o ranggo sa lipunan. Ang bahag para sa mga babae
-    ay may iba''t ibang disenyo at kulay depende sa kultura at rehiyon.
+  m_text: 'Ang "tapis," "kolimbas," at "salawal" ay mga mahahalagang bahagi ng pambansang
+    kasuotan ng mga Pilipino na nagtatampok ng kanilang makulay na kasaysayan at
+    kultura. Ang "tapis" ay isang pang-itaas na kasuotang paborito ng mga kababaihan,
+    na karaniwang isinusuot sa ilalim ng kanilang pang-itaas na damit. Ito''y naglalarawan
+    ng tradisyonal na kagandahan at elegansya, at madalas na ginagamit sa mga espesyal
+    na okasyon na may kultural na kahulugan.
 
 
 
-    Para
-    naman sa mga lalaki, ang "bahag" ay isang uri ng tradisyonal na kasuotang pang-ibaba
-    na karaniwang gawa sa mga matibay na materyales tulad ng baston, dahon, o tela.
-    Ito ay may kakaibang disenyo at pagkakagawa depende sa tribo o kultura ng isang
-    komunidad. Ang pagsusuot ng bahag para sa mga lalaki ay maaaring magbigay-diin
-    sa kanilang pagiging tagapagmana o lider sa kanilang lipunan. Ito ay bahagi ng
-    makulay at makasaysayang kasaysayan ng pananamit sa Pilipinas.'
+    Sa kabilang dako, ang "kolimbas"
+    ay nagbibigay-buhay sa mga tradisyon ng mga Muslim sa Mindanao. Ang mga disenyo
+    nito ay sumasalamin sa kakaibang sining at estilo ng nasabing kultura. Isa itong
+    pambansang kasuotan na nagpapahayag ng kahalagahan ng relihiyon at identidad
+    ng mga Muslim sa Pilipinas.
+
+
+
+    Ang "salawal," sa kabilang banda, ay isang
+    pang-ibaba na kasuotang pang-araw-araw. Ito ay kilalang pantalon o pantalona
+    na nagbibigay ng malayang kilos at comfort. Maaaring itong gawing tela o iba''t
+    ibang materyal, at itinatangi bilang isang praktikal na bahagi ng pang-umagang
+    kasuotan sa araw-araw na buhay.
+
+
+
+    Sa kabuuan, ang mga nabanggit na kasuotan
+    ay hindi lamang mga damit; sila''y mga simbolo ng identidad, kasaysayan, at sining
+    ng mga Pilipino. Ito''y nagpapatibay ng pagmamalaki sa kanilang mga kultura at
+    tradisyon, na nagbibigay kulay at buhay sa pambansang kasaysayan ng bansa.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -17497,7 +16857,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.65
+  m_fontSize: 19.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -19894,7 +19254,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b218fed1d544e12419f41ac7ad3fdd0a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 57deb9b4a2dd88d48a957828f515ba08, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20008,7 +19368,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1890763649}
   m_OnClick:
     m_PersistentCalls:
@@ -20180,7 +19540,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1905214098}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2025100602}
+        m_TargetAssemblyTypeName: SceneScript, Assembly-CSharp
+        m_MethodName: changeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1905214098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20449,7 +19821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <b>PRECOLONIAL ERA</b>  | BAHAG
+  m_text: '<b>PRECOLONIAL ERA</b> '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -20724,10 +20096,10 @@ RectTransform:
   - {fileID: 1570861561}
   m_Father: {fileID: 1552851224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2766.42, y: -209.26277}
+  m_SizeDelta: {x: 270, y: 393.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1951005130
 MonoBehaviour:
@@ -21383,7 +20755,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1999228264}
   m_OnClick:
     m_PersistentCalls:
@@ -21510,10 +20882,10 @@ RectTransform:
   - {fileID: 2054229131}
   m_Father: {fileID: 1552851224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1012.14, y: -209.26277}
+  m_SizeDelta: {x: 270, y: 393.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2007309170
 MonoBehaviour:
@@ -21610,7 +20982,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <b>PRECOLONIAL ERA</b>  | BAHAG
+  m_text: <b>PRECOLONIAL ERA</b>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -21687,6 +21059,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022653247}
   m_CullTransparentMesh: 1
+--- !u!1 &2025100601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2025100603}
+  - component: {fileID: 2025100602}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2025100602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025100601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfdd35b684aea844ba42d4537ad94c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Main Menu
+--- !u!4 &2025100603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025100601}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 485.42368, y: 585.60345, z: 52079.023}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2035396970
 GameObject:
   m_ObjectHideFlags: 0
@@ -21744,7 +21161,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5777479922663450024, guid: 4c86204b4deafb1439489ae779ce377a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 24c082cbf4ac6554692733948ef1ba43, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22249,21 +21666,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Para sa mga babae, ang "bahag" ay isang tradisyonal na kasuotan na karaniwang
-    gawa sa mga pinilipit na dahon o kahoy. Karaniwang sinusuot ito ng mga kababaihan
-    sa iba''t ibang tribo sa Pilipinas bilang pang-ibaba o pang-itaas, at maaari
-    rin itong ipakita ang estado o ranggo sa lipunan. Ang bahag para sa mga babae
-    ay may iba''t ibang disenyo at kulay depende sa kultura at rehiyon.
+  m_text: 'Ang "pudong" at "bahag" ay dalawang termino na may kaugnayan sa kasuotan
+    ng mga Pilipino, laluna sa kanilang tradisyunal na pananamit. Ang "pudong" ay
+    isang uri ng headgear na karaniwang isinusuot ng mga lalaki. Ito ay maaaring
+    gawa sa iba''t ibang uri ng tela at may magkakaibang disenyo at kulay depende
+    sa kultura at rehiyon. Ang "pudong" ay hindi lamang isang simpleng bahagi ng
+    kasuotan kundi kadalasang nagdadala ng kahulugan ng ranggo, estado, o kahalagahan
+    sa lipunan, ayon sa lokal na kasanayan.
 
 
 
-    Para
-    naman sa mga lalaki, ang "bahag" ay isang uri ng tradisyonal na kasuotang pang-ibaba
-    na karaniwang gawa sa mga matibay na materyales tulad ng baston, dahon, o tela.
-    Ito ay may kakaibang disenyo at pagkakagawa depende sa tribo o kultura ng isang
-    komunidad. Ang pagsusuot ng bahag para sa mga lalaki ay maaaring magbigay-diin
-    sa kanilang pagiging tagapagmana o lider sa kanilang lipunan. Ito ay bahagi ng
-    makulay at makasaysayang kasaysayan ng pananamit sa Pilipinas.'
+    Sa kabilang banda, ang "bahag"
+    naman ay isang tradisyunal na pang-ibaba na may kaugnayan sa mga lalaki. Karaniwang
+    gawa sa malambot na materyal tulad ng kawayan o tela, ito ay isinusuot sa baywang.
+    Kilala ang "bahag" bilang bahagi ng tradisyonal na kasuotan sa ilang tribu sa
+    Pilipinas, at ito ay may kahalagahan sa konteksto ng kanilang kultura. Sa ilang
+    pagkakataon, ang "bahag" ay isang elemento sa rituwal o sayaw, nagbibigay ng
+    diwa at kahulugan sa mga pagsasalaysay ng kasaysayan ng tribu. Sa pangkalahatan,
+    ang "pudong" at "bahag" ay nagpapakita ng pagpapahalaga ng mga Pilipino sa kanilang
+    mga tradisyon at kultura sa pamamagitan ng kasuotan.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -22290,7 +21711,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.65
+  m_fontSize: 23.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -22658,10 +22079,10 @@ RectTransform:
   - {fileID: 1772963418}
   m_Father: {fileID: 1376999025}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2179, y: -199.61278}
-  m_SizeDelta: {x: 270, y: 393.6}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2068878832
 MonoBehaviour:
@@ -22797,7 +22218,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2070618515}
   m_OnClick:
     m_PersistentCalls:
@@ -23122,10 +22543,10 @@ RectTransform:
   - {fileID: 23599241}
   m_Father: {fileID: 1552851224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1889.28, y: -209.26277}
+  m_SizeDelta: {x: 270, y: 393.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2126351283
 MonoBehaviour:
@@ -23445,3 +22866,4 @@ SceneRoots:
   - {fileID: 201907092}
   - {fileID: 169894938}
   - {fileID: 540060680}
+  - {fileID: 2025100603}

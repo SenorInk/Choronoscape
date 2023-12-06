@@ -148,6 +148,8 @@ public class TindahanScript : MonoBehaviour
     {
         for (int i = 0; i < itemWeaponButtonList.Count; i++)
         {
+            if (i >= 1)
+                itemWeaponButtonList[i].GetComponent<Button>().interactable = false;
             switch (i)
             {
                 case 0:
