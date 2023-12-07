@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!58 &8308679
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -829,7 +829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!58 &81425889
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5301,7 +5301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!58 &636108195
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7721,7 +7721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!58 &918634211
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7877,7 +7877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!58 &920840506
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8149,7 +8149,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 634054640}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.23781106
+  m_Size: 0.23781107
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9620,7 +9620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!58 &1160011687
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9932,7 +9932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!58 &1192977094
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10878,7 +10878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!58 &1372699175
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14203,7 +14203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!1 &1780827673
 GameObject:
   m_ObjectHideFlags: 0
@@ -14968,7 +14968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!58 &1859696835
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15878,7 +15878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!58 &1925825189
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16901,7 +16901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0fa8159684ee846a0f5f29bb14c237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 20
+  coinValue: 5
 --- !u!58 &2033623974
 CircleCollider2D:
   m_ObjectHideFlags: 0
