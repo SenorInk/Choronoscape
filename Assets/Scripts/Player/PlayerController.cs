@@ -196,7 +196,7 @@ public class PlayerController : MonoBehaviour
 
     public void Add200Coins()
     {
-        numberOfCoins += 200;
+        numberOfCoins += 50;
         Update();  // Update UI to show the new coin count
 
         // Save the updated number of coins to PlayerPrefs
