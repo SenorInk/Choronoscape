@@ -194,7 +194,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    public void Add200Coins()
+    public void addCoins()
     {
         numberOfCoins += 50;
         Update();  // Update UI to show the new coin count

@@ -9358,7 +9358,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: +200 Coins
+  m_Text: +50 Coins
 --- !u!222 &901137334
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15619,7 +15619,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 723270264}
         m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
         m_MethodName: GoBackGame
         m_Mode: 1
@@ -15631,9 +15631,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 782812171821653809}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: Add200Coins
+        m_MethodName: addCoins
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15643,7 +15643,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 178550347}
         m_TargetAssemblyTypeName: AudioScript, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
