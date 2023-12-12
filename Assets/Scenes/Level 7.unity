@@ -12869,7 +12869,7 @@ MonoBehaviour:
   dialogueCollider: {fileID: 1103916209}
   messages:
   - actorId: 0
-    message: '                       Spanish Era'
+    message: '                       Level 2'
   actors:
   - name: '       '
     sprite: {fileID: 0}
