@@ -52,6 +52,30 @@ public class Finish : MonoBehaviour
                 LevelManager.instance.lvl4Unlock = true;
                 LevelManager.instance.Save();
                 break;
+            case 16:
+                LevelManager.instance.lvl5Unlock = true;
+                LevelManager.instance.Save();
+                break;
+            case 17:
+                LevelManager.instance.lvl6Unlock = true;
+                LevelManager.instance.Save();
+                break;
+            case 18:
+                LevelManager.instance.lvl7Unlock = true;
+                LevelManager.instance.Save();
+                break;
+            case 19:
+                LevelManager.instance.lvl8Unlock = true;
+                LevelManager.instance.Save();
+                break;
+            case 20:
+                LevelManager.instance.lvl9Unlock = true;
+                LevelManager.instance.Save();
+                break;
+            case 21:
+                LevelManager.instance.lvl10Unlock = true;
+                LevelManager.instance.Save();
+                break;
 
         }
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

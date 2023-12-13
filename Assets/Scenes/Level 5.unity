@@ -6837,7 +6837,7 @@ MonoBehaviour:
   - {fileID: 378361051}
   currentQuestion: 0
   Quizpanel: {fileID: 2112638355}
-  GoPanel: {fileID: 0}
+  GoPanel: {fileID: 1502251608}
   QuizManagers: {fileID: 1689073099}
   QuestionTxt: {fileID: 1593974650}
 --- !u!1 &727146415
@@ -20511,7 +20511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4817057141703293190, guid: a2f763168eb60984bb5489c64ab21b04, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.760036
+      value: -12.72
       objectReference: {fileID: 0}
     - target: {fileID: 4817057141703293190, guid: a2f763168eb60984bb5489c64ab21b04, type: 3}
       propertyPath: m_LocalPosition.y
