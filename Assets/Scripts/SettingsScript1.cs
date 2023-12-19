@@ -49,9 +49,9 @@ public class SettingsScript1 : MonoBehaviour
 
     public void CloseFactPanel()
     {
+        settingsPanel.SetActive(false);
         UpdateSettings();
         Time.timeScale = 1;
-        settingsPanel.SetActive(false);
     }
 
     /*public void OpenMainMenu(){
