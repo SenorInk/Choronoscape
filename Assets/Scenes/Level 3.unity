@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipNames:
-  - {fileID: 8300000, guid: 5eec986bda30fd94c8beaf99a09d7bb3, type: 3}
+  - {fileID: 8300000, guid: bad42c21da391fb4c923b70941d7a82d, type: 3}
   musicLength: {fileID: 1607307086}
 --- !u!1 &57776508
 GameObject:
@@ -1070,7 +1070,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -46.11078, y: 11.001864}
+  m_AnchoredPosition: {x: -46.11078, y: 11.001862}
   m_SizeDelta: {x: -1076.54, y: -707.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &93990094
@@ -18817,7 +18817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipNames:
-  - {fileID: 8300000, guid: 5eec986bda30fd94c8beaf99a09d7bb3, type: 3}
+  - {fileID: 8300000, guid: 0b2fe11a7299a304aa9460f89c979a92, type: 3}
   musicLength: {fileID: 63283475}
 --- !u!1 &1689073099
 GameObject:

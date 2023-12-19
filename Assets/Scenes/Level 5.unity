@@ -7321,7 +7321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipNames:
-  - {fileID: 8300000, guid: 5eec986bda30fd94c8beaf99a09d7bb3, type: 3}
+  - {fileID: 8300000, guid: b8587728371bd7e40a2073edb8f76fd7, type: 3}
   musicLength: {fileID: 1076855604}
 --- !u!1 &676106735
 GameObject:
@@ -11310,7 +11310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipNames:
-  - {fileID: 8300000, guid: 5eec986bda30fd94c8beaf99a09d7bb3, type: 3}
+  - {fileID: 8300000, guid: 84382cbe8f3602a4f8da133dd6ddcb25, type: 3}
   musicLength: {fileID: 51811584}
 --- !u!1 &1023313229
 GameObject:

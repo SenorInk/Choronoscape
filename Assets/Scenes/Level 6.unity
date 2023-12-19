@@ -1851,7 +1851,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -46.11078, y: 11.001864}
+  m_AnchoredPosition: {x: -46.11078, y: 11.001862}
   m_SizeDelta: {x: -1076.54, y: -707.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &200010807
@@ -9294,16 +9294,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingPoint: {fileID: 1803415544}
   QnA:
-  - Question: Ano ang pinakamatandang kilalang sasakyang pandagat sa Timog-Silangang
-      Asya, na kinikilala bilang pinakaunang kilala sa kasaysayan ng Pilipinas, at
-      naglaro ng mahalagang bahagi sa kalakalan at paglalakbay para sa sinaunang
-      mga Pilipino?
+  - Question: Sa anong panahon nagpatuloy ang paglalakbay ni Migs?
     Answers:
-    - Karakoa boats
-    - Balangay boats
-    - Paraw vessels
-    - Barangay ships
-    CorrectAnswer: 2
+    - Spanish Period
+    - Precolonial Period
+    - American Period
+    - Contemporary Period
+    CorrectAnswer: 1
   options:
   - {fileID: 1023313229}
   - {fileID: 1113268766}
@@ -21795,7 +21792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipNames:
-  - {fileID: 8300000, guid: 5eec986bda30fd94c8beaf99a09d7bb3, type: 3}
+  - {fileID: 8300000, guid: 10972a4990244f54b81b951e7d3293cb, type: 3}
   musicLength: {fileID: 1923007670}
 --- !u!1 &1887004799
 GameObject:
@@ -24342,7 +24339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipNames:
-  - {fileID: 8300000, guid: 5eec986bda30fd94c8beaf99a09d7bb3, type: 3}
+  - {fileID: 8300000, guid: 357af2881a63f154aa35ae798154d9dd, type: 3}
   musicLength: {fileID: 322133909}
 --- !u!1 &2112638355
 GameObject:
