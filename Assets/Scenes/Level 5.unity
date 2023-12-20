@@ -23808,7 +23808,7 @@ PrefabInstance:
     - target: {fileID: 1375329407905891174, guid: a2f763168eb60984bb5489c64ab21b04, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: e87817f8fbf24de48b73641fa16a8c80, type: 2}
+      objectReference: {fileID: 9100000, guid: cea774ec7fec21b448ddb24e71984244, type: 2}
     - target: {fileID: 2346454038670387539, guid: a2f763168eb60984bb5489c64ab21b04, type: 3}
       propertyPath: m_Name
       value: Player
@@ -23864,7 +23864,7 @@ PrefabInstance:
     - target: {fileID: 8355699971431901126, guid: a2f763168eb60984bb5489c64ab21b04, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1196500151, guid: 81956ec3e6547674e99c15ad7acf986c, type: 3}
+      objectReference: {fileID: 1603508672, guid: 6796ffa57ff42be4ebe95969172016cc, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
