@@ -7,21 +7,23 @@ public class RandomFactsScript : MonoBehaviour
 {
     [Header("List of facts")]
     public List<String> facts;
+
+    [Header("List of facts")]
+    [Tooltip("This must have the same order as facts")]
+    public List<AudioClip> voiceOvers;
+    [Header("Translation Audio Channel")]
+    public AudioSource translationSource;
     [Header("Elements")]
 
     [Header("Sound Effects | Optional")]
-    private AudioSource source;
+    public AudioSource source;
     public AudioClip openClip;
     public AudioClip closeClip;
     private bool audioIsEnabled = true;
     public GameObject randomfactPanel;
     public TextMeshProUGUI factText;
-
     void Start()
     {
-        // Initialize AudioSource component for sound effects
-        source = GetComponent<AudioSource>();
-
         // Disable audio if AudioSource component is not found
         if (source == null)
             audioIsEnabled = false;
@@ -34,7 +36,10 @@ public class RandomFactsScript : MonoBehaviour
         {
             try
             {
-                factText.text = facts[new System.Random().Next(0, facts.Count)];
+                int currentIndex = new System.Random().Next(0, facts.Count);
+                factText.text = facts[currentIndex];
+                translationSource.clip = voiceOvers[currentIndex];
+                Debug.Log("Translation Clip: " + translationSource.clip);
             }
             catch (IndexOutOfRangeException)
             {
@@ -45,10 +50,21 @@ public class RandomFactsScript : MonoBehaviour
         PlaySFX("open");
     }
 
+    public void PlayTransalation()
+    {
+        Debug.Log("Playing Clip: " + translationSource.clip);
+        translationSource.Play();
+    }
+
+    public void StopTransalation()
+    {
+        source.Stop();
+    }
+
     public void CloseFactPanel()
     {
         randomfactPanel.SetActive(false);
-        
+
         PlaySFX("close");
     }
 

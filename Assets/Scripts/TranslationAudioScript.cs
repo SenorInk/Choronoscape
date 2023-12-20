@@ -14,7 +14,6 @@ public class TranslationAudioScript : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        StartAudio();
     }
 
     void Update()
