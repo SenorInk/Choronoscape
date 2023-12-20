@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
     public static int numberOfCoins;
     public TextMeshProUGUI coinsText;
 
+    
+
     private void Awake()
     {
         numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins", 0);

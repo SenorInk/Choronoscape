@@ -15,12 +15,6 @@ public class HealthReward : MonoBehaviour
         }
     }
 
-    public void OnAnswerButtonClick()
-    {
-        // Add health when the button is clicked
-        AddHealth();
-    }
-
     private void AddHealth()
     {
         // Assuming the player has a Health component
