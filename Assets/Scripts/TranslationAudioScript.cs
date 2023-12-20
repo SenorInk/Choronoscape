@@ -20,12 +20,23 @@ public class TranslationAudioScript : MonoBehaviour
     {
         if (!stop)
         {
-            musicLength.value += Time.deltaTime;
-            if(musicLength.value >= audioSource.clip.length)
+            if (audioSource == null)
+                return;
+            if (audioSource.clip == null)
+                return;
+            if (musicLength == null)
             {
                 musicActual++;
-                if(musicActual >= clipNames.Length)
-                musicActual = 0;
+                if (musicActual >= clipNames.Length)
+                    musicActual = 0;
+                StartAudio();
+            }
+            musicLength.value += Time.deltaTime;
+            if (musicLength.value >= audioSource.clip.length)
+            {
+                musicActual++;
+                if (musicActual >= clipNames.Length)
+                    musicActual = 0;
                 StartAudio();
             }
         }
@@ -34,20 +45,20 @@ public class TranslationAudioScript : MonoBehaviour
     public void StartAudio(int changeMusic = 0)
     {
         musicActual += changeMusic;
-        if(musicActual >= clipNames.Length)
+        if (musicActual >= clipNames.Length)
         {
             musicActual = 0;
         }
-        else if(musicActual < 0)
+        else if (musicActual < 0)
         {
             musicActual = clipNames.Length - 1;
         }
 
-        if(audioSource.isPlaying && changeMusic == 0)
+        if (audioSource.isPlaying && changeMusic == 0)
         {
             return;
         }
-        if(stop)
+        if (stop)
         {
             stop = false;
         }

@@ -7952,36 +7952,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ang "baro," "salawal," at "alahas" ay tatlong integral na bahagi ng pambansang
+  m_text: Ang "baro," "salawal," at "alahas" ay tatlong integral na bahagi ng pambansang
     kasuotan at kagandahan sa kultura ng mga Pilipino. Ang "baro," isang pang-itaas
     na kasuotan, ay nagdudulot ng kasaysayan at elegansya sa mga kababaihan, na karaniwang
-    isinusuot sa mga mahahalagang okasyon. Sa kanyang makukulay na tela at iba''t
+    isinusuot sa mga mahahalagang okasyon. Sa kanyang makukulay na tela at iba't
     ibang disenyo, ang "baro" ay nagiging daan upang maipahayag ang kahalagahan ng
     kagandahan sa pambansang kultura.
-
-
-
-    Sa kabilang dako, ang "salawal" ay nagpapakita
-    ng kahalagahan ng praktikal na pang-ibaba. Maaaring itong maging pantalon o shorts,
-    at itinatangi bilang bahagi ng pang-araw-araw na kasuotan. Ito ay naglalarawan
-    ng pag-unlad at pagbabago sa istilo ng pananamit, nagbibigay daan sa malayang
-    kilos sa pang-araw-araw na buhay.
-
-
-
-    Ang "alahas," naman, ay nagbibigay-dagdag
-    na kagandahan sa buhay ng mga Pilipino. Ito''y hindi lamang mga yaring ginto
-    o pilak, kundi pati na rin mga natural na materyales tulad ng perlas at koral.
-    Ang mga alahas ay nagbibigay-halaga hindi lamang sa anyo, kundi pati na rin sa
-    kahulugan at kasaysayan ng bawat piraso.
-
-
-
-    Sa kabuuan, ang "baro," "salawal,"
-    at "alahas" ay nagbibigay-tangi sa yaman at kahusayan ng kultura ng mga Pilipino.
-    Ito''y mga kasangkapan na naglalarawan ng pag-usbong at pag-evaolve ng tradisyonal
-    na pananamit, nagpapakita ng kahalagahan ng kagandahan, praktikalidad, at kahulugan
-    sa kanilang araw-araw na pamumuhay.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -10010,15 +9986,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981492708}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.010879629, y: 0.010879629, z: 0.010879629}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1913191574}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -16, y: -159}
+  m_AnchoredPosition: {x: 2059.0383, y: 14759.793}
   m_SizeDelta: {x: 58.7, y: 54.63}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &981492710
@@ -16802,35 +16778,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ang "tapis," "kolimbas," at "salawal" ay mga mahahalagang bahagi ng pambansang
+  m_text: Ang "tapis," "kolimbas," at "salawal" ay mga mahahalagang bahagi ng pambansang
     kasuotan ng mga Pilipino na nagtatampok ng kanilang makulay na kasaysayan at
     kultura. Ang "tapis" ay isang pang-itaas na kasuotang paborito ng mga kababaihan,
-    na karaniwang isinusuot sa ilalim ng kanilang pang-itaas na damit. Ito''y naglalarawan
+    na karaniwang isinusuot sa ilalim ng kanilang pang-itaas na damit. Ito'y naglalarawan
     ng tradisyonal na kagandahan at elegansya, at madalas na ginagamit sa mga espesyal
     na okasyon na may kultural na kahulugan.
-
-
-
-    Sa kabilang dako, ang "kolimbas"
-    ay nagbibigay-buhay sa mga tradisyon ng mga Muslim sa Mindanao. Ang mga disenyo
-    nito ay sumasalamin sa kakaibang sining at estilo ng nasabing kultura. Isa itong
-    pambansang kasuotan na nagpapahayag ng kahalagahan ng relihiyon at identidad
-    ng mga Muslim sa Pilipinas.
-
-
-
-    Ang "salawal," sa kabilang banda, ay isang
-    pang-ibaba na kasuotang pang-araw-araw. Ito ay kilalang pantalon o pantalona
-    na nagbibigay ng malayang kilos at comfort. Maaaring itong gawing tela o iba''t
-    ibang materyal, at itinatangi bilang isang praktikal na bahagi ng pang-umagang
-    kasuotan sa araw-araw na buhay.
-
-
-
-    Sa kabuuan, ang mga nabanggit na kasuotan
-    ay hindi lamang mga damit; sila''y mga simbolo ng identidad, kasaysayan, at sining
-    ng mga Pilipino. Ito''y nagpapatibay ng pagmamalaki sa kanilang mga kultura at
-    tradisyon, na nagbibigay kulay at buhay sa pambansang kasaysayan ng bansa.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -19753,7 +19706,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 981492709}
   - {fileID: 1602280668}
   - {fileID: 1011929629}
   - {fileID: 745091471}
@@ -21667,24 +21619,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Ang "pudong" at "bahag" ay dalawang termino na may kaugnayan sa kasuotan
-    ng mga Pilipino, laluna sa kanilang tradisyunal na pananamit. Ang "pudong" ay
-    isang uri ng headgear na karaniwang isinusuot ng mga lalaki. Ito ay maaaring
-    gawa sa iba''t ibang uri ng tela at may magkakaibang disenyo at kulay depende
-    sa kultura at rehiyon. Ang "pudong" ay hindi lamang isang simpleng bahagi ng
-    kasuotan kundi kadalasang nagdadala ng kahulugan ng ranggo, estado, o kahalagahan
-    sa lipunan, ayon sa lokal na kasanayan.
-
-
-
-    Sa kabilang banda, ang "bahag"
-    naman ay isang tradisyunal na pang-ibaba na may kaugnayan sa mga lalaki. Karaniwang
-    gawa sa malambot na materyal tulad ng kawayan o tela, ito ay isinusuot sa baywang.
-    Kilala ang "bahag" bilang bahagi ng tradisyonal na kasuotan sa ilang tribu sa
-    Pilipinas, at ito ay may kahalagahan sa konteksto ng kanilang kultura. Sa ilang
-    pagkakataon, ang "bahag" ay isang elemento sa rituwal o sayaw, nagbibigay ng
-    diwa at kahulugan sa mga pagsasalaysay ng kasaysayan ng tribu. Sa pangkalahatan,
-    ang "pudong" at "bahag" ay nagpapakita ng pagpapahalaga ng mga Pilipino sa kanilang
-    mga tradisyon at kultura sa pamamagitan ng kasuotan.'
+    ng mga Pilipino, laluna sa kanilang tradisyunal na pananamit.  Ang "pudong" ay
+    hindi lamang isang simpleng bahagi ng kasuotan kundi kadalasang nagdadala ng
+    kahulugan ng ranggo, estado, o kahalagahan sa lipunan, ayon sa lokal na kasanayan.
+    Sa kabilang banda, ang "bahag" naman ay isang tradisyunal na pang-ibaba na may
+    kaugnayan sa mga lalaki. Karaniwang gawa sa malambot na materyal tulad ng kawayan
+    o tela, ito ay isinusuot sa baywang. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f506a9f699c276c45801d914ea158f78, type: 2}
   m_sharedMaterial: {fileID: -4893557459558142426, guid: f506a9f699c276c45801d914ea158f78, type: 2}
@@ -22865,5 +22805,6 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 201907092}
   - {fileID: 169894938}
+  - {fileID: 981492709}
   - {fileID: 540060680}
   - {fileID: 2025100603}

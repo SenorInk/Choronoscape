@@ -22,6 +22,21 @@ public class TindahanScript : MonoBehaviour
     {
         tindahanManager = TindahanManager.instance;
         playerBalance = PlayerPrefs.GetInt("NumberOfCoins");
+
+        LockItems();
+    }
+
+    void LockItems()
+    {
+        if (!LevelManager.instance.lvl6Unlock)
+            itemEnsemblesButtonList[1].GetComponent<Button>().interactable = false;
+        if (!LevelManager.instance.lvl8Unlock)
+            itemEnsemblesButtonList[2].GetComponent<Button>().interactable = false;
+
+        if(tindahanManager.hasBahag)
+            itemEnsembleDetailBtnList[1].GetComponent<TextMeshProUGUI>().text = "Read";
+        if(tindahanManager.hasKangan)
+            itemEnsembleDetailBtnList[1].GetComponent<TextMeshProUGUI>().text = "Kangan";
     }
 
     // Update is called once per frame
