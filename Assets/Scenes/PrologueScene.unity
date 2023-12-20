@@ -2880,33 +2880,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - 'Migs: Bagsak na naman?!'
-  - 'Migs: Mukhang hindi pa yata ako makakapasa ah. Minor subject...'
-  - 'Migs: Pa''no na naman sasabihin ni Mommy dito?'
-  - 'Migs: Arghhh, ano bang silbi nito? Di ko naman ''to magagamit sa trabaho, tch!'
-  - 'Migs: Filipino subject? Talaga? E alam ko na naman to.'
-  - 'Migs: Nakakainis, arghhh'
-  - 'Migs: Let me find my car, para makauwi na.'
-  - 'Migs: O ba''t andilim dito? Arghhh, mga pinoy talaga! '
-  - 'Migs: Oh! Namatay pa ilaw! '
-  - 'Migs: Where''s my darn key? Wala bang guard--'
-  - 'Migs: AHHHHHHHH!!!!!'
+  - 'Migs: Bumagsak na naman ako sa Filipino subject ko. <br> <size=40>Translation:
+    I failed my Filipino subject again.</size>'
+  - 'Migs:  Hindi pa yata ako makakapasa dahil dito, minor subject lang naman ito.
+    <br> <size=30>Translation: It seems like I might not pass because of this, and
+    it''s just a minor subject.</size>'
+  - 'Migs: Pa''no ko kaya ito sasabihin kay Mommy? <br> <size=40>Translation: How
+    am I going to tell this to my Mom?</size>'
+  - 'Migs: Hindi ko maintindihan ang kahalagahan nito kase hindi ko naman ito magagamit
+    sa trabahong gusto ko. <br> <size=30>Translation: I don''t understand its importance
+    because I won''t be able to use it in the job I want. </size>'
+  - 'Migs: Nakapasa naman ako sa ibang subjects. <br> <size=40>Translation: I even
+    passed my other subjects.</size>'
+  - 'Migs: Nakakainis naman, ayoko na talaga sa FIlipino subject! <br> <size=40>
+    Translation: This is frustrating, I really don''t like the Filipino subject!
+    </size>'
+  - 'Migs: I will just find my car, uuwi na lang ako. <br> <size=40> Translation:
+    I will just find my car and go home. </size>'
+  - 'Migs: Bakit kaya andilim dito? Hindi man lang binuhay ang ilaw. <br> <size=40>
+    Why is it dark here? Why didn''t no one bother to turn on the lights </size>'
+  - 'Migs: Walang kuryente? Hello? Guard? May tao ba diyan? <br> <size=40> Is there
+    power interuption? Hello? Guard? Is anyone out there? </size> '
+  - 'Migs: I cannot find my key, where is it? Help--'
+  - 'Migs: AHHHHHHHH (screams)'
   - 'Diwata: Migs... Migs...'
-  - 'Migs: Hmmmm, a-aray...'
+  - 'Migs:  Masakit... <br> <size=40> Translation: It hurts.. </size>'
   - 'Diwata: Migs...'
-  - 'Migs: S-sino ka?! Nasan ako?! Where''s my headset?'
+  - 'Migs: S-sino ka? Nasaan na ako? Anong nangyari? <br> <size=40> Translation:
+    Who are you? Where am I? What happened?</size>'
   - 'Diwata: Masiyado mong hindi pinahahalagahan ang iyong pinagmulan, marapat lamang
-    na bigyan kitang aral.'
+    na bigyan kitang aral. <br> <size=30> Translation: You''ve been neglecting your
+    roots too much; it''s only fitting that I give you a lesson. </size>'
   - 'Diwata: Ngayon ay inaatasan kita ng mga pagsubok na siyang magiging daan upang
-    iyong pahalagahan ang iyong pinagmulan.'
+    iyong pahalagahan ang iyong pinagmulan. <br> <size=30> Translation: Now, I assign
+    you challenges that will be the path for you to appreciate your roots.</size>'
   - 'Diwata: Ikaw ay nasa aking panahon Migs. Panahon kung saan ang iyong bansa ay
-    wala pang pagkakakilanlan.'
+    wala pang pagkakakilanlan. <br> <size=30> Translation: You are in my time, Migs.
+    A time when your country has yet to establish its identity.</size>'
   - 'Diwata: Upang makabalik sa kasalukuyan ay kailangan mong makompleto ang mapang
-    ito. '
-  - 'Diwata: Handa ka na ba?'
-  - 'Migs: Teka-- wala akong maintindihan!'
-  - 'Diwata: Maiintindihan mo...'
-  - 'Migs: AHHHHHHH!'
+    ito. <br> <size=30> Translation: In order to return to the present, you need
+    to complete this quest.</size>'
+  - 'Diwata: Handa ka na ba? <br> <size=40> Translation: Are you ready? </size>'
+  - 'Migs: Saglit lang-- wala akong maintindihan! <br> <size=40> Translation: Wait--
+    I can''t understand anything!</size>'
+  - 'Diwata: Maiintindihan mo... <br> <size=40> Translation: You will undersatnd
+    </size>'
+  - 'Migs: AHHHHHHH! (screams)'
   dialogueText: {fileID: 1863564537}
   backgrounds:
   - {fileID: 21300000, guid: 1e160daa0d506704ca120d77b8d956e1, type: 3}
