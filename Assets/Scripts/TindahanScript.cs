@@ -6,27 +6,36 @@ using Unity.VisualScripting;
 
 public class TindahanScript : MonoBehaviour
 {
-    private TindahanManager tindahanManager;
+    //private TindahanManager tindahanManager;
     private int playerBalance;
     public TextMeshProUGUI moneyText;
     public GameObject detailsPanel;
+    /*
     public List<GameObject> itemWeaponDetailList;
     public List<GameObject> itemEnsembleDetailList;
     public List<GameObject> itemWeaponButtonList;
     public List<GameObject> itemEnsemblesButtonList;
     public List<GameObject> itemWeaponDetailBtnList;
     public List<GameObject> itemEnsembleDetailBtnList;
+*/
     public GameObject successPanel;
     public GameObject failPanel;
+    public GameObject EnsemblesObjt;
     void Start()
     {
-        tindahanManager = TindahanManager.instance;
+        //tindahanManager = TindahanManager.instance;
         playerBalance = PlayerPrefs.GetInt("NumberOfCoins");
 
-        LockItems();
+        //LockItems();
     }
 
-    void LockItems()
+  
+    void Awake()
+    {
+        EnsemblesObjt.SetActive(false);
+    }
+
+    /*void LockItems()
     {
         if (!LevelManager.instance.lvl6Unlock)
             itemEnsemblesButtonList[1].GetComponent<Button>().interactable = false;
@@ -37,7 +46,7 @@ public class TindahanScript : MonoBehaviour
             itemEnsembleDetailBtnList[1].GetComponent<TextMeshProUGUI>().text = "Read";
         if(tindahanManager.hasKangan)
             itemEnsembleDetailBtnList[1].GetComponent<TextMeshProUGUI>().text = "Kangan";
-    }
+    }*/
 
     // Update is called once per frame
     void Update()
@@ -45,12 +54,12 @@ public class TindahanScript : MonoBehaviour
         // Update the player balance periodically
         PlayerPrefs.SetInt("NumberOfCoins", playerBalance);
         //Save changes in real time
-        tindahanManager.Save();
+        //tindahanManager.Save();
         moneyText.SetText("" + playerBalance);
-        bindButtonTexts();
-        checkEquipment();
+        //bindButtonTexts();
+        //checkEquipment();
     }
-
+/*
     private void checkEquipment()
     {
         for (int i = 0; i < itemWeaponDetailBtnList.Count; i++)
@@ -124,7 +133,7 @@ public class TindahanScript : MonoBehaviour
             }
         }
     }
-
+*/
     private void EquipItem(string name)
     {
         string key = "";
@@ -156,9 +165,9 @@ public class TindahanScript : MonoBehaviour
         }
 
 
-        tindahanManager.Equip(key);
+        //tindahanManager.Equip(key);
     }
-
+/*
     private void bindButtonTexts()
     {
         for (int i = 0; i < itemWeaponButtonList.Count; i++)
@@ -201,16 +210,16 @@ public class TindahanScript : MonoBehaviour
             }
         }
     }
-
+*/
     public void ShowWeaponItem(int index)
     {
         detailsPanel.SetActive(true);
-        itemWeaponDetailList[index].SetActive(true);
+        //itemWeaponDetailList[index].SetActive(true);
     }
     public void ShowEnsembleItem(int index)
     {
         detailsPanel.SetActive(true);
-        itemEnsembleDetailList[index].SetActive(true);
+        //itemEnsembleDetailList[index].SetActive(true);
     }
 
     public void BuyItem(string name)
@@ -325,7 +334,7 @@ public class TindahanScript : MonoBehaviour
             return;
         }
         playerBalance -= cost;
-        tindahanManager.SetBoolean(key, true);
+        //tindahanManager.SetBoolean(key, true);
         ShowSuccessPanel();
     }
 
@@ -344,6 +353,7 @@ public class TindahanScript : MonoBehaviour
         detailsPanel.SetActive(false);
         successPanel.SetActive(false);
         failPanel.SetActive(false);
+        /*
         foreach (GameObject item in itemWeaponDetailList)
         {
             item.SetActive(false);
@@ -352,5 +362,6 @@ public class TindahanScript : MonoBehaviour
         {
             item.SetActive(false);
         }
+        */
     }
 }
